@@ -1,24 +1,18 @@
 import React from 'react';
+import { GlobalStyle } from './styles';
 import { eventsArray } from './events';
+import EventCard from './Components/EventCard';
 
-function App() {
-  return (
+const App = () => (
+  <>
+    <GlobalStyle />
     <div>
       <h1>Sudanese events</h1>
-        <div>
-          { eventsArray.map((event, index) => {
-            return (
-              <ul key={index}>
-                <h2>{event.name}</h2>
-                <p>{event.description}</p>
-                <p><strong>{event.date}</strong></p>
-                <a href="#">{event.link}</a>           
-              </ul>
-            );
-          })}
-        </div>
+        <ul>
+          { eventsArray.map((event, index) => <EventCard event={event} key={index} />) }
+        </ul>
     </div>
+  </>
   );
-}
 
 export default App;
