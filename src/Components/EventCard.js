@@ -9,7 +9,7 @@ const EventCard = ({ event }) => {
     link,
     name,
   } = event;
-  
+
   return (
   <li>
     <h2>{name}</h2>
@@ -17,8 +17,9 @@ const EventCard = ({ event }) => {
     <p>{location}</p>
     <p>{time}</p>
     <p><strong>{date}</strong></p>
-    <a href="#">{link}</a>           
+    <a href="#">{link}</a>
   </li>
 )}
+
 
 export default EventCard;
