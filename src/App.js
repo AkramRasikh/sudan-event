@@ -1,7 +1,7 @@
 import React from 'react';
-import { GlobalStyle } from './styles';
-
 import { Route } from 'react-router-dom'
+
+import { GlobalStyle } from './styles';
 
 import Layout from './Components/Layout';
 import Home from './Pages/Home';
