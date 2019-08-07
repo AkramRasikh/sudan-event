@@ -4,14 +4,14 @@ import Navbar from './NavBar';
 const Layout = props => (
     <>
         <div style={{ padding: 40, backgroundColor: 'blue' }}>
-            <header>
+            <header style={{ background: 'green' }}>
                 Sudan Website
                 <Navbar />
             </header>
             <div style={{ padding: 20, background: 'white' }}>
                 {props.children}
             </div>
-            <footer>
+            <footer style={{ background: 'yellow' }}>
                 This is a footer
             </footer>
         </div>
