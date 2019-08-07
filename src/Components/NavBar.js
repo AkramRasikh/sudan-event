@@ -1,14 +1,14 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 function Navbar() {
-    return (
-      <ul>
-        <li><a href="default.asp">Home</a></li>
-        <li><a href="events.html">Events</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    );
-  }
+  return (
+    <ul>
+      <li><NavLink to='/' exact>Home</NavLink></li>
+      <li><NavLink to='/events' exact>Events</NavLink></li>
+      <li><NavLink to='/about-us' exact>About us</NavLink></li>
+    </ul>
+  );
+}
 
 export default Navbar;
