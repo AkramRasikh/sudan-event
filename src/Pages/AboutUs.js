@@ -4,7 +4,8 @@ const AboutUs = props => (
     <div>
         <h1>About Us</h1>
         <p>
-            Mission Statement
+        Mission Statement
+        
         SudanUK is an organisation which has many ideas, but one of our common goals is to stand with Sudan and support its people.
         
         How are we different to any other Sudanese organisation, you may ask?
@@ -18,7 +19,7 @@ const AboutUs = props => (
         Another immediate problem we want to address is the influx of Migrants who need support in many different avenues but also need reintegration into the Sudanese Diaspora Community in the UK.
         
         These are just a few of the many issues that we will address, but this is not a task we are undertaking alone. We have many different incredibly youth groups doing incredible work and the main idea of the Youth Council is to unite these groups to ensure they are all working under the same umbrella without neglecting their valuable voices.
-</p>
+        </p>
     </div>
 );
 
