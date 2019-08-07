@@ -8,7 +8,9 @@ const Layout = props => (
                 Sudan Website
                 <Navbar />
             </header>
-            {props.children}
+            <div style={{ padding: 20, background: 'white' }}>
+                {props.children}
+            </div>
             <footer>
                 This is a footer
             </footer>
