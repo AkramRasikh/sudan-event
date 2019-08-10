@@ -10,6 +10,11 @@ export const GlobalStyle = createGlobalStyle`
       margin: 0 auto;
       text-align: center;
     }
+    .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
     .gridElement{
       display: inline-block;
       vertical-align: top;
@@ -17,8 +22,16 @@ export const GlobalStyle = createGlobalStyle`
     }
     .missionStatement{
       align: center;
-
+      background-color: #E0EEE0;
     }
+    p{
+      font-size: 18px;
+    }
+    img{
+      max-width: 100%;
+      max-height: 100%;
+  }
+
     a
     {
       color: ${({ theme }) => theme.colors.secondaryBlue}
@@ -32,11 +45,7 @@ export const GlobalStyle = createGlobalStyle`
       overflow: hidden;
       background-color: #333333;
     }
-    p
-    {
-      text-align: left;
-      font: 15px Verdana, Geneva, sans-serif;
-    }
+
     h1
     {
       text-align: center;

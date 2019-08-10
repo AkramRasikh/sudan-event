@@ -39,7 +39,7 @@ export const membersArray = [
     name: "Negla Abdalla",
     description: " ",
     quote: "The power of social media is undeniable. We turned social media blueforSudan at a simple tap of a button. My goal is simply to break the internet over and over and over again. With my background in digital marketing and the manpower now rebranded KANDAKA POWER of the Sudanese community I believe we can achieve this.",
-    contact: ""
+    contact: "@neglaaaa"
   },
   {
     role: "Event Organiser",
@@ -53,7 +53,7 @@ export const membersArray = [
     name: "Hala El Shafie",
     description: " ",
     quote: "",
-    contact: "halaelshafie"
+    contact: "@halaelshafie"
   },
   {
     role: "Disability & Dyslexia Support",

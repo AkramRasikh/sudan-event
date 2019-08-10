@@ -2,13 +2,14 @@ import React from 'react';
 
 const Home = props => (
   <div class='missionStatement'>
+  <br/>
             <p><i> Mission Statement</i></p>
+            <br/>
               <p>
                 SudanUK is an organisation which has many ideas, but one of our common goals is to stand with Sudan and support its people.
                 <br/>
                 <br/>
-                How are we different to any other Sudanese organisation, you may ask?
-                <br/>
+                <i>How are we different to any other Sudanese organisation, you may ask?</i>
                 <br/>
                 Simple -  we are unique in the sense that our company is one that is youth run, with a strong assisting hand from experienced adults. Our efforts and suggestions are combined together to produce multiple fruitful results.
                 <br/>
@@ -24,6 +25,7 @@ const Home = props => (
                 <br/>
                 These are just a few of the many issues that we will address, but this is not a task we are undertaking alone. We have many different incredibly youth groups doing incredible work and the main idea of the Youth Council is to unite these groups to ensure they are all working under the same umbrella without neglecting their valuable voices.
                 </p>
+                <br/>
 </div>
 );
 

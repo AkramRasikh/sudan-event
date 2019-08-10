@@ -9,8 +9,8 @@ const slideImages = [
 ];
 
 const properties = {
-  duration: 5000,
-  transitionDuration: 500,
+  duration: 7000,
+  transitionDuration: 800,
   infinite: true,
   indicators: true,
   arrows: true,
@@ -25,19 +25,19 @@ const Slideshow = () => {
         <Slide {...properties}>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
-            <span> <img src={require('../Images/salamat1.jpg')} height='450' width='700'/></span>
+            <span> <img src={require('../Images/salamat1.jpg')} class='center'/></span>
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
               <span>
-              <img src={require('../Images/salamat2.jpg')} height='450' width='700'/>
+              <img src={require('../Images/salamat2.jpg')} class='center' />
               </span>
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
-              <span> <img src={require('../Images/salamat3.jpg')} height='450' width='700'/>
+              <span> <img src={require('../Images/salamat3.jpg')} class='center'/>
               </span>
             </div>
           </div>
