@@ -1,10 +1,11 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
 
+//cant use these yet
 const slideImages = [
   '../Images/salamat1.jpg',
   '../Images/salamat2.jpg',
-  './salamat3.jpg'
+  '../Images/salamat3.jpg'
 ];
 
 const properties = {
@@ -24,17 +25,20 @@ const Slideshow = () => {
         <Slide {...properties}>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
-            <span> <img src='../Images/salamat1.jpg' alt='hanak'height='50' width='50'/></span>
+            <span> <img src={require('../Images/salamat1.jpg')} height='450' width='700'/></span>
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
-              <span>Slide 2</span>
+              <span>
+              <img src={require('../Images/salamat2.jpg')} height='450' width='700'/>
+              </span>
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
-              <span> <img src='../Images/salamat1.jpg'height='500'/>Slide 3</span>
+              <span> <img src={require('../Images/salamat3.jpg')} height='450' width='700'/>
+              </span>
             </div>
           </div>
         </Slide>
