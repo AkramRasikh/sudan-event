@@ -4,9 +4,12 @@ import EventCard from '../Components/EventCard';
 
 const Events = props => (
     <div>
-        <h1>Upcoming events</h1>
+        <h1>Events</h1>
         <ul style={{background: 'pink'}}>
-            {eventsArray.map((event, index) => <EventCard event={event} key={index} />)}
+            {eventsArray.map((event, index) =>
+              <div class='gridElement'><li>
+              <EventCard event={event}  key={index} /></li></div>)}
+
         </ul>
     </div>
 );

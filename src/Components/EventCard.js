@@ -13,8 +13,8 @@ const EventCard = ({ event }) => {
 
   return (
     <li>
-      <h2>{name}</h2>
-      <p>{description}</p>
+      <h2><b>{name}</b></h2>
+      <br/>
       <p>{location}</p>
       <p>{time}</p>
       <p><strong>{date}</strong></p>

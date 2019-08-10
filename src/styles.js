@@ -5,6 +5,20 @@ export const GlobalStyle = createGlobalStyle`
     @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
     font-family: 'Open Sans', sans-serif;
     margin: 0;
+
+    .gridList{
+      margin: 0 auto;
+      text-align: center;
+    }
+    .gridElement{
+      display: inline-block;
+      vertical-align: top;
+      padding: 18px;
+    }
+    .missionStatement{
+      align: center;
+
+    }
     a
     {
       color: ${({ theme }) => theme.colors.secondaryBlue}
@@ -44,6 +58,5 @@ export const GlobalStyle = createGlobalStyle`
    {
      background-color: #111111;
    }
-
   }
 `;

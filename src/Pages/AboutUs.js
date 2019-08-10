@@ -6,8 +6,9 @@ const AboutUs = props => (
     <div>
     <h1>Meet the committee</h1>
 
-  <ul>
-      {membersArray.map((member, index) => <MemberCard member={member} key={index} />)}
+  <ul style={{background: 'pink'}}>
+      {membersArray.map((member, index) => <div class='gridElement'><li>
+      <MemberCard member={member} key={index}/></li></div>)}
   </ul>
 
 

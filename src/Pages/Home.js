@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Home = props => (
-  <div>
+  <div class='missionStatement'>
             <p><i> Mission Statement</i></p>
               <p>
                 SudanUK is an organisation which has many ideas, but one of our common goals is to stand with Sudan and support its people.
