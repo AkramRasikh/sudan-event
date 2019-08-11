@@ -15,6 +15,10 @@ export const GlobalStyle = createGlobalStyle`
   margin-left: auto;
   margin-right: auto;
 }
+    .bigText{
+      font-size: 25px;
+      text-align: center;
+    }
     .gridElement{
       display: inline-block;
       vertical-align: top;
@@ -54,6 +58,12 @@ export const GlobalStyle = createGlobalStyle`
     {
       float: left;
     }
+    .greenText{
+      color: black	;
+      text-align: left;
+      font-weight: bold;
+
+    }
 
     li a
     {
@@ -65,7 +75,7 @@ export const GlobalStyle = createGlobalStyle`
    }
    li a:hover
    {
-     background-color: #111111;
+     background-color: #8FD8D8;
    }
   }
 `;

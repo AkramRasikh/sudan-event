@@ -7,7 +7,8 @@ import Layout from './Components/Layout';
 import Home from './Pages/Home';
 import Events from './Pages/Events';
 import AboutUs from './Pages/AboutUs';
-import Gallery from './Pages/Gallery'
+import Gallery from './Pages/Gallery';
+import Contact from './Pages/Contact';
 
 
 const App = () => (
@@ -17,6 +18,7 @@ const App = () => (
 			<Route path="/" exact component={Home} />
 			<Route path="/events" exact component={Events} />
 			<Route path="/about-us" exact component={AboutUs} />
+			<Route path="/contact" exact component={Contact} />
 			<Route path="/gallery" exact component={Gallery} />
 		</Layout>
 	</>

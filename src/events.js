@@ -4,197 +4,185 @@ export const eventsArray = [
     date: "8th June 2019",
     time: "6pm-9pm",
     location: "Rumis Cave",
-    gallery: [
-      {description: "A night that celebrated the Kandaka (Nubian Queen). This evening consisted of incredible talks by strong Sudanese women who tackled the roles of the women, the roles of doctors, and the roles of the youth to name a few in the Sudan uprisings. The night also showcased incredible female talent and was a great space that was all about empowering and elevating the status of the woman.",
-},
+    description: "A night that celebrated the Kandaka (Nubian Queen). This evening consisted of incredible talks by strong Sudanese women who tackled the roles of the women, the roles of doctors, and the roles of the youth to name a few in the Sudan uprisings. The night also showcased incredible female talent and was a great space that was all about empowering and elevating the status of the woman.",
+      images:[
       { url: 'this is a url', description: 'this is a description' },
       { url: 'this is a url', description: 'this is a description' },
       { url: 'this is a url', description: 'this is a description' },
-    ]
+    ],
   },
   {
     name: "Diaspora: Voice of the revolution",
     date: "20th June 2019",
     time: "6pm -9pm",
     location: "Canalside",
-    gallery: [
-      { description: "This event was all about discussing in detail about what the role of the diaspora is in the revolution - particulary post the 3rd June massacre. Many of us have sat and thought what can we actually do. This event broke down our role into political lobbying, social media lobbying and creating a support network. A great campaign was also launched and that was the Fathers Day Campaign where children were encouraged to take an image with their fathers holding signs that say ‘My gift to you dad is ….’ followed by a statement that tackles an issue in Sudan. This campaign was effective in using the fathers day trend to highlight the plight of the Sudanese people",
-      },
+    description: "This event was all about discussing in detail about what the role of the diaspora is in the revolution - particulary post the 3rd June massacre. Many of us have sat and thought what can we actually do. This event broke down our role into political lobbying, social media lobbying and creating a support network. A great campaign was also launched and that was the Fathers Day Campaign where children were encouraged to take an image with their fathers holding signs that say ‘My gift to you dad is ….’ followed by a statement that tackles an issue in Sudan. This campaign was effective in using the fathers day trend to highlight the plight of the Sudanese people",
+    images:[
       { url: 'this is a url', description: 'this is a description' },
       { url: 'this is a url', description: 'this is a description' },
-      { url: 'this is a url', description: 'this is a description' },
-    ]
+      { url: 'this is a url', description: 'this is a description' },],
   },
   {
     name: "Uncensored Conference",
     date: "13th July 2019",
     time: "10am - 9pm",
     location: "Wembley International Hotel",
-    gallery: [
-      { description: "A conference looking into how far we have come in the revolution and what is next, by further analysing the role of the youth and women in this revolution and what threats there are to stealing away the revolution from the people. A large segment of the day delved really deep into censorship, social media, student activism, independent investigations into the TMC, appointing a new leader and reducing tensions. This was wrapped up nicely by brainstorming effective action plans and ended with a showcase of incredible Sudanese Talent. With the rapidly changing situation in Sudan it is crucial we continuously keep discussions alive, and re-evaluate what our roles are and what we can do to make this revolution a success.",
-      },
+    description: "A conference looking into how far we have come in the revolution and what is next, by further analysing the role of the youth and women in this revolution and what threats there are to stealing away the revolution from the people. A large segment of the day delved really deep into censorship, social media, student activism, independent investigations into the TMC, appointing a new leader and reducing tensions. This was wrapped up nicely by brainstorming effective action plans and ended with a showcase of incredible Sudanese Talent. With the rapidly changing situation in Sudan it is crucial we continuously keep discussions alive, and re-evaluate what our roles are and what we can do to make this revolution a success.",
+      images:[
       { url: 'this is a url', description: 'this is a description' },
       { url: 'this is a url', description: 'this is a description' },
-      { url: 'this is a url', description: 'this is a description' },
-    ]
+      { url: 'this is a url', description: 'this is a description' },],
   },
   {
     name: "Salamat Festival",
     date: "20th July 2019",
     time: "11am - 7pm",
     location: "Bay 20 Community Centre",
-    gallery: [
-      { description: "This festival was all about celebrating African culture. There was a centre stage where different performers from different African cultures showcased a part of their culture, as well as Fashion shows. The park was also filled with gazebos selling different foods, clothing, and other cultural items. This festival will hopefully be a yearly occurrence, and the organisers hope that with each year the festival becomes more and more representative of ALL African cultures. So make sure you join in next year and get your country represented!"},
+    description: "This festival was all about celebrating African culture. There was a centre stage where different performers from different African cultures showcased a part of their culture, as well as Fashion shows. The park was also filled with gazebos selling different foods, clothing, and other cultural items. This festival will hopefully be a yearly occurrence, and the organisers hope that with each year the festival becomes more and more representative of ALL African cultures. So make sure you join in next year and get your country represented!",
+    images:[
       { url: 'this is a url', description: 'this is a description' },
       { url: 'this is a url', description: 'this is a description' },
-      { url: 'this is a url', description: 'this is a description' },
-    ]
+      { url: 'this is a url', description: 'this is a description' },],
   },
   {
     name: "Youth Night",
     date: "21st July 2019",
     time: "6pm - 10pm",
     location: "Rumis Cave",
-    gallery: [
-      {description: "A night filled with creative talent from different Sudanese and Non - Sudanese performers and good music. The idea of this night was to get the youth socialising and also give them a chance to relax, unwind in a creative environment. The first part of the night was an open mic night encouraging many young talents to come and take the stage, and the second part was taken over by DJ Tijan a Sudanese DJ who got the party started with the biggest UK/US and Sudanese bangers. Whilst tensions are still high in Sudan it is crucial that there are more events/activities that allow the diaspora to unwind, relax, and re-connect with their culture in a positive way. Mental health is and will always be a priority. ",
-    },
+    description: "A night filled with creative talent from different Sudanese and Non - Sudanese performers and good music. The idea of this night was to get the youth socialising and also give them a chance to relax, unwind in a creative environment. The first part of the night was an open mic night encouraging many young talents to come and take the stage, and the second part was taken over by DJ Tijan a Sudanese DJ who got the party started with the biggest UK/US and Sudanese bangers. Whilst tensions are still high in Sudan it is crucial that there are more events/activities that allow the diaspora to unwind, relax, and re-connect with their culture in a positive way. Mental health is and will always be a priority. ",
+    images:[
       { url: 'this is a url', description: 'this is a description' },
       { url: 'this is a url', description: 'this is a description' },
       { url: 'this is a url', description: 'this is a description' },
-    ]
+    ],
   },
   {
     name: "Stand with Sudan",
     date: "4th August 2019",
     time: "1-5pm",
     location: "Richmond Terrace",
-    gallery: [
-      {description: "Rape has long been used for politcal gain in Sudan and this revolution has not been any different. A stand/protest was organised to help support all the victims of rape, men, women and children as well as rememberance and solidarity with the martyrs who lost their lives. The stand had the usual passion and vibe that we have seen time and time again from the Sudanese protests with a few NEW English chants. Money was also raised to support the pink for Kandaka campaign, and the Ahfad clinic which will be helping those victims of rape through the selling of items such as t-shirts and bags. Protests are key to our action here in the UK as not only does it show the UK government that we are not going to give up, but it also provides an outlet or a release for the diaspora to exhale out all their anger and hurt.",
-      },
+    description: "Rape has long been used for politcal gain in Sudan and this revolution has not been any different. A stand/protest was organised to help support all the victims of rape, men, women and children as well as rememberance and solidarity with the martyrs who lost their lives. The stand had the usual passion and vibe that we have seen time and time again from the Sudanese protests with a few NEW English chants. Money was also raised to support the pink for Kandaka campaign, and the Ahfad clinic which will be helping those victims of rape through the selling of items such as t-shirts and bags. Protests are key to our action here in the UK as not only does it show the UK government that we are not going to give up, but it also provides an outlet or a release for the diaspora to exhale out all their anger and hurt.",
+      images:[
       { url: 'this is a url', description: 'this is a description' },
       { url: 'this is a url', description: 'this is a description' },
       { url: 'this is a url', description: 'this is a description' },
-    ]
+    ],
   },
   {
     name: "Migrant Support Clinic",
     date: "date",
     time: "time",
     location: "Rumis Cave",
-    gallery: [
-      {description: "The first ever Youth Led Migrant support clinic will be launching on Sunday. This idea was born out of discussions amongst the Youth who felt that Migration was an issue to be dealt with immediately. Upon discussing with some Migrants a collective agreement was agreed to launch a Migrant Support Clinic that would happen fortnightly. The clinic would help with social and educational support, as well as reading and translating documents, helping with CVs and just generally creating a fun and safe environment for Migrants to come and connect with the wider community. The organisers of the Migrant Support clinic are still looking for volunteers so if you are interested in helping please email: uncensored.hn@gmail.com",
-      },
+    description: "The first ever Youth Led Migrant support clinic will be launching on Sunday. This idea was born out of discussions amongst the Youth who felt that Migration was an issue to be dealt with immediately. Upon discussing with some Migrants a collective agreement was agreed to launch a Migrant Support Clinic that would happen fortnightly. The clinic would help with social and educational support, as well as reading and translating documents, helping with CVs and just generally creating a fun and safe environment for Migrants to come and connect with the wider community. The organisers of the Migrant Support clinic are still looking for volunteers so if you are interested in helping please email: uncensored.hn@gmail.com",
+      images: [
       { url: 'this is a url', description: 'this is a description' },
       { url: 'this is a url', description: 'this is a description' },
       { url: 'this is a url', description: 'this is a description' },
-    ]
+    ],
   },
   {
     name: "Rest in revolutionary Times",
     date: "4th August 2019",
     time: "2:30-5:30pm",
     location: "Rumis Cave",
-    gallery: [
-      {description: " A community support workshop facilitated by mental health professionals providing a safe space centering Sudanese people of all genders,sexuality, tribes,religions,languages and abilities.",
-      },
+    description: " A community support workshop facilitated by mental health professionals providing a safe space centering Sudanese people of all genders,sexuality, tribes,religions,languages and abilities.",
+      images:[
       { url: 'this is a url', description: 'this is a description' },
       { url: 'this is a url', description: 'this is a description' },
-      { url: 'this is a url', description: 'this is a description' },
-    ]
+      { url: 'this is a url', description: 'this is a description' },],
   },
   {
     name: "Beats of the Antonov",
-    date: "Mon Aug 5th",
+    date: "5th Aug 2019",
     time: "",
     location: "",
-    gallery: [
-      {description: "The panel discussion will act as an informative session, encompassing the novelty/limitations of this revolutionary moment and what lessons can be drawn from its parallels in our rich Sudanese history moving forward.",
-      },
+  description: "The panel discussion will act as an informative session, encompassing the novelty/limitations of this revolutionary moment and what lessons can be drawn from its parallels in our rich Sudanese history moving forward.",
+      images:[
       { url: 'this is a url', description: 'this is a description' },
       { url: 'this is a url', description: 'this is a description' },
       { url: 'this is a url', description: 'this is a description' },
-    ]
+    ],
   },
   {
     name: "Sudani Diaspora Healing Space",
-    date: "Tue Aug 6th",
+    date: "6th Aug 2019",
     time: "",
     location: "",
-    gallery: [
-      {description: "This session will provide a space for the Sudani diaspora, with a specific focus on refugees and asylum seekers, to heal/talk/connect and share/discuss emotions and thoughts surrounding the revolution, their relationship to Sudan and Sudanese history, and any anxieties/hopes for the future.",
-      },
+    description: "This session will provide a space for the Sudani diaspora, with a specific focus on refugees and asylum seekers, to heal/talk/connect and share/discuss emotions and thoughts surrounding the revolution, their relationship to Sudan and Sudanese history, and any anxieties/hopes for the future.",
+      images: [
       { url: 'this is a url', description: 'this is a description' },
       { url: 'this is a url', description: 'this is a description' },
       { url: 'this is a url', description: 'this is a description' },
-    ]
+    ],
   },
   {
     name: "Young People's Art Workshop",
-    date: "Fri Aug 9th",
+    date: "9 Aug 2019",
     time: "",
     location: "",
-    gallery: [
-      {description: "Young People's Art Workshop on the Sudanese Revolution: The revolution in Sudan is led by the youth of the country and so it is important to facilitate spaces where they can develop their ideas/voice. Children and young people of 4-16 years of age are invited to think/talk/create through the vehicle and language of art. We will be using prompts to help young people give physical form to the ideas discussed around revolution.",
-      },
+    description: "Young People's Art Workshop on the Sudanese Revolution: The revolution in Sudan is led by the youth of the country and so it is important to facilitate spaces where they can develop their ideas/voice. Children and young people of 4-16 years of age are invited to think/talk/create through the vehicle and language of art. We will be using prompts to help young people give physical form to the ideas discussed around revolution.",
+      images:[
+      { url: 'this is a url', description: 'this is a description' },
+      { url: 'this is a url', description: 'this is a description' },
+      { url: 'this is a url', description: 'this is a description' },],
+  },
+  {
+    name: "Eid Al Adha Celebration",
+    date: "11th Aug 2019",
+    time: "",
+    location: "Kush 1070 BC",
+    description: " Youth Political Discussion: Lecture by Boushra Gamar on the history of conflict/resistance in Sudan leading up to the Sudanese revolution, followed by  a political discussion amongst the Sudanese youth in London on several developments of the revolution and the role of diaspora in that context. ",
+    images:[
       { url: 'this is a url', description: 'this is a description' },
       { url: 'this is a url', description: 'this is a description' },
       { url: 'this is a url', description: 'this is a description' },
-    ]
+    ],
   },
   {
     name: "The Sudanese Revolution and You",
-    date: "Mon Aug 12th",
+    date: "12th Aug 2019",
     time: "",
     location: "",
-    gallery: [
-      {description: " Youth Political Discussion: Lecture by Boushra Gamar on the history of conflict/resistance in Sudan leading up to the Sudanese revolution, followed by  a political discussion amongst the Sudanese youth in London on several developments of the revolution and the role of diaspora in that context. ",
-    },
+    description: " Youth Political Discussion: Lecture by Boushra Gamar on the history of conflict/resistance in Sudan leading up to the Sudanese revolution, followed by  a political discussion amongst the Sudanese youth in London on several developments of the revolution and the role of diaspora in that context. ",
+    images:[
       { url: 'this is a url', description: 'this is a description' },
       { url: 'this is a url', description: 'this is a description' },
-      { url: 'this is a url', description: 'this is a description' },
-    ]
+      { url: 'this is a url', description: 'this is a description' },],
   },
   {
     name: "Diaspora Direct Action",
-    date: "Tue Aug 13th",
+    date: "13th Aug 2019",
     time: "",
     location: "",
-    gallery: [
-      {    description: "Following on from the political discussion this event will be an action-based meeting focussing more on defining our role in the revolution in diaspora and mapping ways to concretely support and enable different bodies of civil society back home, with a special focus on neighbourhood committees. ",
-},
+    description: "Following on from the political discussion this event will be an action-based meeting focussing more on defining our role in the revolution in diaspora and mapping ways to concretely support and enable different bodies of civil society back home, with a special focus on neighbourhood committees. ",
+    images:[
       { url: 'this is a url', description: 'this is a description' },
       { url: 'this is a url', description: 'this is a description' },
       { url: 'this is a url', description: 'this is a description' },
-    ]
+    ],
   },
   {
     name: "Madaniya Abadiya",
-    date: "Sat Aug 17th",
+    date: "17th Aug 2019",
     time: "",
     location: "",
-    gallery: [
-      {    description: ' A Night of Sudanese Creativity and Expression ft. The Scorpios: The closing show and a creative fundraiser night, bringing together performances from Sudanese and non-Sudanese musicians, poets, artists, DJs. Funds will go to neighbourhood committees in Sudan and other arms of civil society resisting the military regime (TBD)',
-      },
+    description: ' A Night of Sudanese Creativity and Expression ft. The Scorpios: The closing show and a creative fundraiser night, bringing together performances from Sudanese and non-Sudanese musicians, poets, artists, DJs. Funds will go to neighbourhood committees in Sudan and other arms of civil society resisting the military regime (TBD)',
+      images:[
       { url: 'this is a url', description: 'this is a description' },
       { url: 'this is a url', description: 'this is a description' },
       { url: 'this is a url', description: 'this is a description' },
-    ]
+    ],
   },
   {
     name: "The Sit -In",
-    date: "17th August 2019",
+    date: "tbc",
     time: "",
     location: "",
-    gallery: [
-      {description: "A replica of the sit-in that took place outside the Military Headquarters, Khartoum. This event will allow for a real chance to experience to an extent what it was like to be at the hub of creativity and unity. Great food, music, activities and plenty more suprises. An event not to be missed!",
-    },
-    { images:
+    description: "A replica of the sit-in that took place outside the Military Headquarters, Khartoum. This event will allow for a real chance to experience to an extent what it was like to be at the hub of creativity and unity. Great food, music, activities and plenty more suprises. An event not to be missed!",
+    images:
       [ { url: 'this is a url', description: 'this is a description' },
     { url: 'this is a url', description: 'this is a description' },
     { url: 'this is a url', description: 'this is a description' }
-    ]
-    }
-
-    ]
-  },
+  ],
+},
 ]

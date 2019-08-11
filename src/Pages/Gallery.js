@@ -6,6 +6,8 @@ const Gallery = props => {
         <>
             <h1>{props.location.state.eventName}</h1>
             <br/>
+            <p>{props.location.state.description}</p>
+            <br/>
             <div>
                 {props.location.state.images.map(img => (
                     <img src={img.url} alt={img.description} />

@@ -15,5 +15,4 @@ const AboutUs = props => (
 </div>
 );
 
-
 export default AboutUs;
