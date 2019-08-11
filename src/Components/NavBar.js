@@ -6,7 +6,8 @@ function Navbar() {
     <ul>
       <li><NavLink to='/' exact>Home</NavLink></li>
       <li><NavLink to='/events' exact>Events</NavLink></li>
-      <li><NavLink to='/about-us' exact>About us</NavLink></li>
+      <li><NavLink to='/about-us' exact>Contact</NavLink></li>
+      <li><NavLink to='/about-us' exact>About</NavLink></li>
     </ul>
   );
 }

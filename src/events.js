@@ -104,7 +104,7 @@ export const eventsArray = [
   },
   {
     name: "Beats of the Antonov",
-    date: "Mon Aug 5th",
+    date: "5th Aug 2019",
     time: "",
     location: "",
     gallery: [
@@ -117,7 +117,7 @@ export const eventsArray = [
   },
   {
     name: "Sudani Diaspora Healing Space",
-    date: "Tue Aug 6th",
+    date: "6th Aug 2019",
     time: "",
     location: "",
     gallery: [
@@ -130,7 +130,7 @@ export const eventsArray = [
   },
   {
     name: "Young People's Art Workshop",
-    date: "Fri Aug 9th",
+    date: "9 Aug 2019",
     time: "",
     location: "",
     gallery: [
@@ -142,8 +142,21 @@ export const eventsArray = [
     ]
   },
   {
+    name: "Eid Al Adha Celebration",
+    date: "11th Aug 2019",
+    time: "",
+    location: "Kush 1070 BC",
+    gallery: [
+      {description: " Youth Political Discussion: Lecture by Boushra Gamar on the history of conflict/resistance in Sudan leading up to the Sudanese revolution, followed by  a political discussion amongst the Sudanese youth in London on several developments of the revolution and the role of diaspora in that context. ",
+    },
+      { url: 'this is a url', description: 'this is a description' },
+      { url: 'this is a url', description: 'this is a description' },
+      { url: 'this is a url', description: 'this is a description' },
+    ]
+  },
+  {
     name: "The Sudanese Revolution and You",
-    date: "Mon Aug 12th",
+    date: "12th Aug 2019",
     time: "",
     location: "",
     gallery: [
@@ -156,7 +169,7 @@ export const eventsArray = [
   },
   {
     name: "Diaspora Direct Action",
-    date: "Tue Aug 13th",
+    date: "13th Aug 2019",
     time: "",
     location: "",
     gallery: [
@@ -169,7 +182,7 @@ export const eventsArray = [
   },
   {
     name: "Madaniya Abadiya",
-    date: "Sat Aug 17th",
+    date: "17th Aug 2019",
     time: "",
     location: "",
     gallery: [
@@ -182,7 +195,7 @@ export const eventsArray = [
   },
   {
     name: "The Sit -In",
-    date: "17th August 2019",
+    date: "tbc",
     time: "",
     location: "",
     gallery: [

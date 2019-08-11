@@ -16,8 +16,7 @@ const EventCard = ({ event }) => {
       <h2><b>{name}</b></h2>
       <br/>
       <p>{location}</p>
-      <p>{time}</p>
-      <p><strong>{date}</strong></p>
+      <p>{date}</p>
       <NavLink to={{ pathname: '/gallery', state: { eventName: name, images: images } }} exact>See images</NavLink>
     </li>
   )
