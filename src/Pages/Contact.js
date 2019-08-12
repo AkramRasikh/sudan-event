@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< HEAD
 const Home = props => (
   <div class='missionStatement'>
   <br/>
@@ -24,3 +25,23 @@ const Home = props => (
 );
 
 export default Home;
+=======
+import { membersArray } from '../members';
+import MemberCard from '../Components/MemberCard';
+
+const AboutUs = props => (
+    <div>
+    <h1>Meet the committee 👋🏾</h1>
+
+  <ul style={{background: '#E0EEE0'}}>
+      {membersArray.map((member, index) => <div class='gridElement'><li>
+      <MemberCard member={member} key={index}/></li></div>)}
+  </ul>
+
+
+</div>
+);
+
+
+export default AboutUs;
+>>>>>>> 0af4d49f54b1cb1a20b0c86f050dba3490574bf0
