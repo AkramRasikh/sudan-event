@@ -1,31 +1,27 @@
 import React from 'react';
 import Navbar from './NavBar';
+import Footer from './Footer';
 import Slideshow from './Slideshow';
 import { SocialIcon } from 'react-social-icons';
 import { NavLink } from 'react-router-dom';
-
 //header image links to home
 const Layout = props => (
     <>
-        <div style={{ padding: 40, background: '#005F8D' }}>
-            <header style={{ background: '#005F8D'}}>
-            <NavLink to='/' exact>  <img src={require('../Images/sudanuklogoo.jpg')}/></NavLink>
-                <Navbar />
+        <div style={{ padding: 40, background: 'white' }}>
+        <Navbar />
+            <header style={{ background: 'white'}}>
             </header>
-            <div style={{ padding: 20, background: '#005F8D' }}>
+            <div style={{ padding: 0, background: 'white' }}>
                 {props.children}
             </div>
-            <div style={{ padding: 20, background: '#005F8D' }}>
-            <footer>
-            <SocialIcon url="https://mail.google.com/mail/u/1/?tab=wm&ogbl#inbox?compose=CllgCJZfSDRnNCQFNdhrcXdDTZZNHBhzqkgxtjdRBlkgbkNKgCCKJRHBtgKmCzXXgVzXvmJglkL"/>
-            <SocialIcon url="http://instagram.com/sudanuk_" />
-            <SocialIcon url="https://www.facebook.com/Sudanuk_-112774156737439/?__tn__=%2Cd%2CP-R&eid=ARDGY6_fdoxU-qmh387l6_ibFHrPziPIEawvq965e6mvKKCJXW2by16Okab6cZc1ft0bJ9S_6xbYNmvH" />
-            </footer>
-
+            <div style={{ padding: 20, background: 'white' }}>
+          <Footer/>
             </div>
         </div>
+
     </>
 )
+
 
 
 export default Layout;

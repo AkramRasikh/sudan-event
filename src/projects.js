@@ -5,4 +5,10 @@ export const projectsArray = [
     time: "",
     location: "",
   },
+  {
+    title: "Migrant Clinic",
+    description: "",
+    time: "",
+    location: "",
+  },
 ]

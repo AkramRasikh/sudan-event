@@ -15,9 +15,9 @@ const EventCard = ({ event }) => {
     <li>
       <h2><b>{name}</b></h2>
       <br/>
-      <p>{location}</p>
-      <p>{date}</p>
-      <NavLink to={{ pathname: '/gallery', state: { eventName: name, description: description, images: images } }} exact>See event</NavLink>
+      <p align="center">{location}</p>
+      <p align="center">{date}</p>
+      <NavLink to={{ pathname: '/gallery', state: { eventName: name, description: description, images: images } }} exact>Read more</NavLink>
     </li>
   )
 }

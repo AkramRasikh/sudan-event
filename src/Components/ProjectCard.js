@@ -9,6 +9,7 @@ const ProjectCard = ({ project }) => {
    } = project;
 
   return (
+
     <li>
       <h2>{title}</h2>
       <p><i>{description}</i></p>

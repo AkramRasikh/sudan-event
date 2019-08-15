@@ -1,8 +1,10 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
+
 const About = props => (
-  <div class='missionStatement' style={{background: '#005F8D'}}>
+  <div class='missionStatement' style={{background: 'white'}}>
   <br/>
-  <h1><b>Who are we </b></h1>
+  <h1><b><u>Sudan UK</u></b></h1>
               <br/>
               <p>
                 SudanUK is an organisation which has many ideas, but one of our common goals is to stand with Sudan and support its people.
@@ -21,6 +23,8 @@ const About = props => (
                 <br/>
                 These are just a few of the many issues that we will address, but this is not a task we are undertaking alone. We have many different incredibly youth groups doing incredible work and the main idea of the Youth Council is to unite these groups to ensure they are all working under the same umbrella without neglecting their valuable voices.
                 </p>
+                <br/>
+                <p> check out some of the <NavLink to='/projects' exact>initiatives</NavLink> we're working on</p>
                 <br/>
 
 </div>

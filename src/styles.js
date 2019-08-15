@@ -19,64 +19,63 @@ export const GlobalStyle = createGlobalStyle`
       font-size: 25px;
       text-align: center;
     }
-    .gridElement{
-      display: inline-block;
-      vertical-align: top;
-      padding: 18px;
-    }
+
     .missionStatement{
-      align: center;
-      background-color: #E0EEE0;
+      width: 100%;
+      background-color: white;
     }
     p{
       font-size: 18px;
-      color: white;
+      color: #005F8D;
     }
     img{
-      width: 100%;
-      height: 100%;
-  }
-
-    a
-    {
-      color: ${({ theme }) => theme.colors.secondaryBlue}
+      float: right;
     }
-
-    ul
-    {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: #333333;
-    }
-
+.blue{
+  color: blue;
+}
     h1
     {
-      text-align: left;
-      color: white;
+      text-align: center;
+      color: #005F8D;
     }
-    li
-    {
-      float: left;
-    }
+
     h2
     {
-      color: white;
+      color: #005F8D;
     }
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #005F8D;
+  }
+  .fixed
+  {
+    position: fixed;
+  }
+  .footer
+  {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  li {
+    float: left;
+  }
 
 
-    li a
-    {
-      display: block;
-      color: white;
-      text-align: left;
-      padding: 16px;
-      text-decoration: none;
-   }
-   li a:hover
-   {
-     background-color: black;
-   }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #FFD700;
+  }
   }
 `;

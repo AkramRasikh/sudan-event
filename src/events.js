@@ -50,7 +50,7 @@ export const eventsArray = [
     location: "Bay 20 Community Centre",
     description: "This festival was all about celebrating African culture. There was a centre stage where different performers from different African cultures showcased a part of their culture, as well as Fashion shows. The park was also filled with gazebos selling different foods, clothing, and other cultural items. This festival will hopefully be a yearly occurrence, and the organisers hope that with each year the festival becomes more and more representative of ALL African cultures. So make sure you join in next year and get your country represented!",
     images:[
-      { url: 'this is a url', description: 'this is a description' },
+      { url: 'https://i.ibb.co/QHjd972/DSC0008.jpg', description: 'this is a description' },
       { url: 'this is a url', description: 'this is a description' },
       { url: 'this is a url', description: 'this is a description' },],
   },
