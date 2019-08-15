@@ -14,7 +14,7 @@ function Navbar() {
         menu={
     <ul>
       <li><NavLink to='/events' exact>Events</NavLink></li>
-      <li><NavLink to='/contact' exact>Initiatives</NavLink></li>
+      <li><NavLink to='/projects' exact>Projects</NavLink></li>
       <li><NavLink to='/about-us' exact>About</NavLink></li>
       <li><NavLink to='/contact' exact>Contact</NavLink></li>
     </ul>}/>

@@ -9,7 +9,7 @@ const Layout = props => (
     <>
         <div style={{ padding: 40, background: '#E6E6FA' }}>
             <header style={{ background: '#E6E6FA'}}>
-            <NavLink to='/' exact>  <img src={require('../Images/sudanuklogoo.jpg')} class='center'/></NavLink>
+            <NavLink to='/' exact>  <img src={require('../Images/sudanuklogoo.jpg')}/></NavLink>
               <Navbar />
                 <Slideshow/>
             </header>

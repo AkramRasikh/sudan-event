@@ -32,8 +32,8 @@ export const GlobalStyle = createGlobalStyle`
       font-size: 18px;
     }
     img{
-      max-width: 100%;
-      max-height: 100%;
+      width: 100%;
+      height: 100%;
   }
 
     a
@@ -69,14 +69,14 @@ export const GlobalStyle = createGlobalStyle`
     li a
     {
       display: block;
-      color: black;
+      color: white;
       text-align: left;
-      padding: 10px;
+      padding: 16px;
       text-decoration: none;
    }
    li a:hover
    {
-     background-color: #8FD8D8;
+     background-color: black;
    }
   }
 `;

@@ -1,4 +1,6 @@
 import React from 'react';
+import AwesomeSlider from 'react-awesome-slider';
+import 'react-awesome-slider/dist/styles.css';
 
 const Gallery = props => {
     console.log('props', props);
@@ -9,9 +11,11 @@ const Gallery = props => {
             <p>{props.location.state.description}</p>
             <br/>
             <div>
-                {props.location.state.images.map(img => (
-                    <img src={img.url} alt={img.description} width= "100%"/>
-                ))}
+  <AwesomeSlider>
+    {props.location.state.images.map(img=> (
+    <div data-src={img.url} />))}
+  </AwesomeSlider>
+                
             </div>
         </>
     )

@@ -9,6 +9,7 @@ import Events from './Pages/Events';
 import About from './Pages/About';
 import Gallery from './Pages/Gallery';
 import Contact from './Pages/Contact';
+import Projects from './Pages/Projects';
 
 
 const App = () => (
@@ -19,6 +20,7 @@ const App = () => (
 			<Route path="/events" exact component={Events} />
 			<Route path="/about-us" exact component={About} />
 			<Route path="/contact" exact component={Contact} />
+			<Route path="/projects" exact component={Projects} />
 			<Route path="/gallery" exact component={Gallery} />
 		</Layout>
 	</>
