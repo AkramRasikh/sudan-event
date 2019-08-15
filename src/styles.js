@@ -29,7 +29,9 @@ export const GlobalStyle = createGlobalStyle`
       color: #005F8D;
     }
     img{
-      float: right;
+      float: center;
+      width: 100%;
+
     }
 .blue{
   color: blue;
@@ -64,7 +66,9 @@ export const GlobalStyle = createGlobalStyle`
   li {
     float: left;
   }
-
+  AwesomeSlider{
+    width: 100%;
+  }
 
   li a {
     display: block;

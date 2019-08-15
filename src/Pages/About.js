@@ -2,10 +2,9 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const About = props => (
-  <div class='missionStatement' style={{background: 'white'}}>
+  <div style={{background: 'white'}}>
   <br/>
-  <h1><b><u>Sudan UK</u></b></h1>
-              <br/>
+  <h1><b>Sudan UK</b></h1>
               <p>
                 SudanUK is an organisation which has many ideas, but one of our common goals is to stand with Sudan and support its people.
                 <br/>
