@@ -2,7 +2,7 @@ import React from 'react';
 const About = props => (
   <div class='missionStatement'>
   <br/>
-  <h1><b><u>Sudan UK</u> </b></h1>
+  <h1><b>Who are we </b></h1>
               <br/>
               <p>
                 SudanUK is an organisation which has many ideas, but one of our common goals is to stand with Sudan and support its people.

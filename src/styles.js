@@ -65,12 +65,13 @@ export const GlobalStyle = createGlobalStyle`
 
     }
 
+
     li a
     {
       display: block;
-      color: white;
+      color: black;
       text-align: left;
-      padding: 16px;
+      padding: 10px;
       text-decoration: none;
    }
    li a:hover

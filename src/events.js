@@ -6,10 +6,8 @@ export const eventsArray = [
     location: "Rumis Cave",
     description: "A night that celebrated the Kandaka (Nubian Queen). This evening consisted of incredible talks by strong Sudanese women who tackled the roles of the women, the roles of doctors, and the roles of the youth to name a few in the Sudan uprisings. The night also showcased incredible female talent and was a great space that was all about empowering and elevating the status of the woman.",
       images:[
-      { url: 'this is a url', description: 'this is a description' },
-      { url: 'this is a url', description: 'this is a description' },
-      { url: 'this is a url', description: 'this is a description' },
-    ],
+      { url: 'https://i.ibb.co/YZKPFk4/Whats-App-Image-2019-07-30-at-12-33-11.jpg', description: 'this is a description' },
+      { url: 'https://i.ibb.co/2SdSHMC/Whats-App-Image-2019-07-30-at-12-33-12-2.jpg', description: 'this is a description' },],
   },
   {
     name: "Diaspora: Voice of the revolution",
@@ -18,9 +16,21 @@ export const eventsArray = [
     location: "Canalside",
     description: "This event was all about discussing in detail about what the role of the diaspora is in the revolution - particulary post the 3rd June massacre. Many of us have sat and thought what can we actually do. This event broke down our role into political lobbying, social media lobbying and creating a support network. A great campaign was also launched and that was the Fathers Day Campaign where children were encouraged to take an image with their fathers holding signs that say ‘My gift to you dad is ….’ followed by a statement that tackles an issue in Sudan. This campaign was effective in using the fathers day trend to highlight the plight of the Sudanese people",
     images:[
-      { url: 'this is a url', description: 'this is a description' },
-      { url: 'this is a url', description: 'this is a description' },
-      { url: 'this is a url', description: 'this is a description' },],
+      { url: 'https://i.ibb.co/3FVXrbL/DSC0032.jpg', description: 'this is a description' },
+      { url: 'https://i.ibb.co/Z2GMJdV/DSC0038.jpg', description: 'this is a description' },
+      { url: 'https://i.ibb.co/4t3wsNq/DSC0040.jpg', description: 'this is a description' },
+      { url: 'https://i.ibb.co/DLSTXdw/DSC0051.jpg', description: 'this is a description' },
+      { url: 'https://i.ibb.co/LR0Lm9D/DSC0053.jpg', description: 'this is a description' },
+      { url: 'https://i.ibb.co/p3yzwkd/DSC0054.jpg', description: 'this is a description' },
+      { url: 'https://i.ibb.co/Gp1wZSq/DSC0056.jpg', description: 'this is a description' },
+      { url: 'https://i.ibb.co/93jFwMZ/DSC0058.jpg', description: 'this is a description' },
+      { url: 'https://i.ibb.co/jfw03pY/DSC0062.jpg', description: 'this is a description' },
+      { url: 'https://i.ibb.co/VTYncdZ/DSC0067.jpg', description: 'this is a description' },
+      { url: 'https://i.ibb.co/B3VJYVS/DSC0070.jpg', description: 'this is a description' },
+      { url: 'https://i.ibb.co/p4KCzVD/DSC0073.jpg', description: 'this is a description' },
+      { url: 'https://i.ibb.co/B3VJYVS/DSC0070.jpg', description: 'this is a description' },
+      { url: 'https://i.ibb.co/ZS6gQ8C/DSC0077.jpg', description: 'this is a description' },
+    ],
   },
   {
     name: "Uncensored Conference",
@@ -133,23 +143,10 @@ export const eventsArray = [
     location: "Kush 1070 BC",
     description: " Youth Political Discussion: Lecture by Boushra Gamar on the history of conflict/resistance in Sudan leading up to the Sudanese revolution, followed by  a political discussion amongst the Sudanese youth in London on several developments of the revolution and the role of diaspora in that context. ",
     images:[
-      { url: 'this is a url', description: 'this is a description' },
+      { url: 'https://i.ibb.co/zQWS1Jz/vigil1.jpg', description: 'this is a description' },
       { url: 'this is a url', description: 'this is a description' },
       { url: 'this is a url', description: 'this is a description' },
     ],
-  },
-  {
-    name: "Eid Al Adha Celebration",
-    date: "11th Aug 2019",
-    time: "",
-    location: "Kush 1070 BC",
-    gallery: [
-      {description: " Youth Political Discussion: Lecture by Boushra Gamar on the history of conflict/resistance in Sudan leading up to the Sudanese revolution, followed by  a political discussion amongst the Sudanese youth in London on several developments of the revolution and the role of diaspora in that context. ",
-    },
-      { url: 'this is a url', description: 'this is a description' },
-      { url: 'this is a url', description: 'this is a description' },
-      { url: 'this is a url', description: 'this is a description' },
-    ]
   },
   {
     name: "The Sudanese Revolution and You",

@@ -2,13 +2,16 @@ import React from 'react';
 import Navbar from './NavBar';
 import Slideshow from './Slideshow';
 import { SocialIcon } from 'react-social-icons';
+import { NavLink } from 'react-router-dom';
 
+//header image links to home
 const Layout = props => (
     <>
         <div style={{ padding: 40, background: '#E6E6FA' }}>
             <header style={{ background: '#E6E6FA'}}>
-            <Slideshow/>
-                <Navbar />
+            <NavLink to='/' exact>  <img src={require('../Images/sudanuklogoo.jpg')} class='center'/></NavLink>
+              <Navbar />
+                <Slideshow/>
             </header>
             <div style={{ padding: 20, background: '#E0EEEE' }}>
                 {props.children}

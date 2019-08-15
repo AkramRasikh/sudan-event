@@ -1,7 +1,7 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
 
-//cant use these yet
+//cant use these yet arrgh
 const slideImages = [
   '../Images/salamat1.jpg',
   '../Images/salamat2.jpg',

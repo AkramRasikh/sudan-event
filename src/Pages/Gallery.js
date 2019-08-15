@@ -10,7 +10,7 @@ const Gallery = props => {
             <br/>
             <div>
                 {props.location.state.images.map(img => (
-                    <img src={img.url} alt={img.description} />
+                    <img src={img.url} alt={img.description} width= "100%"/>
                 ))}
             </div>
         </>

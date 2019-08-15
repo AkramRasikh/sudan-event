@@ -7,6 +7,7 @@ const MemberCard = ({ member }) => {
      description,
      quote,
      contact,
+     insta,
    } = member;
 
   return (
@@ -14,7 +15,7 @@ const MemberCard = ({ member }) => {
       <h2>{name}</h2>
       <p><i>{role}</i></p>
       <p>{quote}</p>
-      <p>{contact}</p>
+      <a href={insta}>{contact}</a>
     </li>
 )}
 
