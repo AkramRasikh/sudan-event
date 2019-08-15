@@ -15,7 +15,6 @@ const Gallery = props => {
     {props.location.state.images.map(img=> (
     <div data-src={img.url} />))}
   </AwesomeSlider>
-                
             </div>
         </>
     )

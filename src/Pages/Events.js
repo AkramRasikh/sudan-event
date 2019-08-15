@@ -4,7 +4,7 @@ import EventCard from '../Components/EventCard';
 
 const Events = props => (
     <div>
-        <ul style={{background: '#E0EEE0'}}>
+        <ul style={{background: '#005F8D'}}>
         <br/>
         <h1>Events</h1>
             {eventsArray.map((event, index) =>

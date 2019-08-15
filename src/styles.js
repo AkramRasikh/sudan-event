@@ -30,6 +30,7 @@ export const GlobalStyle = createGlobalStyle`
     }
     p{
       font-size: 18px;
+      color: white;
     }
     img{
       width: 100%;
@@ -52,17 +53,16 @@ export const GlobalStyle = createGlobalStyle`
 
     h1
     {
-      text-align: center;
+      text-align: left;
+      color: white;
     }
     li
     {
       float: left;
     }
-    .greenText{
-      color: black	;
-      text-align: left;
-      font-weight: bold;
-
+    h2
+    {
+      color: white;
     }
 
 

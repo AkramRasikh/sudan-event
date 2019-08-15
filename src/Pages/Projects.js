@@ -1,14 +1,17 @@
 import React from 'react';
-const Projects = props => {
+import ProjectCard from '../Components/ProjectCard';
+import { projectsArray } from '../projects';
 
-    return (
-        <>
-            <h1>Initiatives</h1>
-            <br/>
-            <br/>
+const Projects = props => (
+  <div>
+  <ul style={{background: '#005F8D'}}>
+  <h1>Projects</h1>
+      {projectsArray.map((project, index) =>
+      <li>
+        <ProjectCard project={project}  key={index}/> </li>)}
 
-        </>
-    )
-}
+  </ul>
+        </div>
+);
 
 export default Projects;

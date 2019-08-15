@@ -1,6 +1,6 @@
 import React from 'react';
 const About = props => (
-  <div class='missionStatement'>
+  <div class='missionStatement' style={{background: '#005F8D'}}>
   <br/>
   <h1><b>Who are we </b></h1>
               <br/>
