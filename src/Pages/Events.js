@@ -6,13 +6,14 @@ const Events = props => (
     <div>
         <ul style={{background: 'white'}}><br/> <h1><b>Events</b></h1>
         <br/>
-
             {eventsArray.map((event, index) =>
-              <div class='gridElement'><li>
-              <EventCard event={event}  key={index} /></li></div>)}
-
+              <div class='circle'><li>
+              <EventCard event={event} key={index} /></li></div>)}
         </ul>
     </div>
+
+
+
 );
 
 export default Events;

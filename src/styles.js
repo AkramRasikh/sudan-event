@@ -11,15 +11,14 @@ export const GlobalStyle = createGlobalStyle`
       text-align: center;
     }
     .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
     .bigText{
       font-size: 25px;
       text-align: center;
     }
-
     .missionStatement{
       width: 100%;
       background-color: white;
@@ -30,46 +29,46 @@ export const GlobalStyle = createGlobalStyle`
     }
     img{
       float: center;
-      width: 100%;
-
-    }
-.blue{
-  color: blue;
-}
-    h1
-    {
+      }
+    h1{
       text-align: center;
       color: #005F8D;
     }
-
-    h2
-    {
+    .white{
+      color: white;
+    }
+    h2{
       color: #005F8D;
+      text-align: left;
     }
     ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #005F8D;
-  }
-  .fixed
-  {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #005F8D;
+    }
+  .fixed{
     position: fixed;
   }
-  .footer
-  {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-  li {
+  li{
     float: left;
   }
   AwesomeSlider{
     width: 100%;
   }
+  @keyframes slidein {
 
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+
+  }
   li a {
     display: block;
     color: white;
@@ -77,9 +76,35 @@ export const GlobalStyle = createGlobalStyle`
     padding: 14px 16px;
     text-decoration: none;
   }
+  .white{
+    color: white;
 
+  }
+  .circle{
+	background: #005F8D;
+  	border-radius: 200px;
+  	color: white;
+  	height: 200px;
+  	font-weight: bold;
+  	width: 200px;
+
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+}
+
+
+.block{
+	border: 1px solid red;
+  	text-align: center;
+  	vertical-align: middle;
+}
+.dropdown{
+
+}
   li a:hover {
-    background-color: #FFD700;
+    background-color: #000
+;
   }
   }
 `;

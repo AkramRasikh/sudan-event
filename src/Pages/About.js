@@ -5,6 +5,7 @@ const About = props => (
   <div style={{background: 'white'}}>
   <br/>
   <h1><b>Sudan UK</b></h1>
+  <img src={require('../Images/us.jpg')} width="100%"/>
               <p>
                 SudanUK is an organisation which has many ideas, but one of our common goals is to stand with Sudan and support its people.
                 <br/>
@@ -23,7 +24,7 @@ const About = props => (
                 These are just a few of the many issues that we will address, but this is not a task we are undertaking alone. We have many different incredibly youth groups doing incredible work and the main idea of the Youth Council is to unite these groups to ensure they are all working under the same umbrella without neglecting their valuable voices.
                 </p>
                 <br/>
-                <p> check out some of the <NavLink to='/projects' exact>initiatives</NavLink> we're working on</p>
+                <p> Check out some of the <NavLink to='/projects' exact>projects</NavLink> we're working on!</p>
                 <br/>
 
 </div>
