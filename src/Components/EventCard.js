@@ -13,7 +13,7 @@ const EventCard = ({ event }) => {
 
   return (
     <li>
-      <h2><b>{name}</b></h2>
+      <h2>{name}</h2>
       <p>{location}</p>
       <p>{date}</p>
       <NavLink to={{ pathname: '/gallery', state: { eventName: name, description: description, images: images } }} exact>Read more</NavLink>

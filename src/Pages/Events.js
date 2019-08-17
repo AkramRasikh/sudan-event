@@ -4,13 +4,15 @@ import EventCard from '../Components/EventCard';
 
 const Events = props => (
     <div>
-        <ul style={{background: 'white'}}>
+        <ul class="grid" style={{background: 'white'}}>
 <div class="a">
         <h1>Events</h1>
         </div>
+        <div class="wrapper">
             {eventsArray.map((event, index) =>
-              <li>
-              <EventCard event={event} key={index} /></li>)}
+              <div><li>
+              <EventCard event={event} key={index} /></li></div>)}
+              </div>
         </ul>
     </div>
 

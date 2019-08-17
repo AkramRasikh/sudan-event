@@ -24,7 +24,7 @@ export const GlobalStyle = createGlobalStyle`
 }
     p{
       font-size: 16px;
-      color: #005F8D;
+      color: black;
     }
     img{
       float: center;
@@ -34,10 +34,25 @@ export const GlobalStyle = createGlobalStyle`
       color: #005F8D;
     }
 
-    h2{
-      color: #005F8D;
-      text-align: left;
-    }
+    .wrapper {
+      border: 2px solid white;
+      border-radius: 5px;
+      background-color: white;
+  }
+
+  .wrapper > div {
+      border: 2px solid white;
+      border-radius: 5px;
+      background-color: #005F8D;
+      padding: 1em;
+      color: white;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+
     ul {
       list-style-type: none;
       margin: 0;

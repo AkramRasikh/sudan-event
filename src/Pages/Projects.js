@@ -8,10 +8,11 @@ const Projects = props => (
 <div class="a">
   <h1><b>What we're doing now</b></h1>
   </div>
-
+<div class="wrapper">
       {projectsArray.map((project, index) =>
-      <li>
-        <ProjectCard project={project} key={index}/> </li>)}
+      <div><li>
+        <ProjectCard project={project} key={index}/></li></div>)}
+        </div>
   </ul>
         </div>
 );

@@ -13,7 +13,7 @@ const ProjectCard = ({ project }) => {
   return (
 
     <li>
-      <h2><b>{title}</b></h2>
+      <h2>{title}</h2>
       <p>{time}</p>
       <br/>
       <p align="left"><b>Location:</b>{location}</p>
