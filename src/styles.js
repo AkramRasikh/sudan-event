@@ -3,7 +3,7 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
   * {
     @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Verdana', sans-serif;
     margin: 0;
 
     .gridList{
@@ -19,9 +19,11 @@ export const GlobalStyle = createGlobalStyle`
       font-size: 25px;
       text-align: center;
     }
-
+.float{
+  float: left;
+}
     p{
-      font-size: 18px;
+      font-size: 16px;
       color: #005F8D;
     }
     img{
@@ -52,24 +54,18 @@ export const GlobalStyle = createGlobalStyle`
   AwesomeSlider{
     width: 100%;
   }
-  @keyframes slidein {
 
-    from {
-      margin-left: 100%;
-      width: 300%;
-    }
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-
+  div.a {
+    font-size: 21px;
   }
-
+  div.b {
+    font-size: 1px;
+  }
   li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 10px 20px;
+    padding: 10px 10px;
     text-decoration: none;
   }
 

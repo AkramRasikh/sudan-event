@@ -5,7 +5,10 @@ import { projectsArray } from '../projects';
 const Projects = props => (
   <div>
   <ul style={{background: 'white'}}>
-  <h1><b>What we're working on</b></h1>
+<div class="a">
+  <h1><b>What we're doing now</b></h1>
+  </div>
+
       {projectsArray.map((project, index) =>
       <li>
         <ProjectCard project={project} key={index}/> </li>)}
