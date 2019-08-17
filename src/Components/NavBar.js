@@ -8,7 +8,6 @@ function Navbar() {
   <li><NavLink to='/projects' exact>Projects</NavLink></li>
   <li><NavLink to='/contact' exact>Committee</NavLink></li>
   <li><NavLink to='/about-us' exact>About</NavLink></li>
-  <li><NavLink to='/' exact>Sudan UK</NavLink></li>
 
  </ul>
   );

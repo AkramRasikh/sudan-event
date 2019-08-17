@@ -5,19 +5,18 @@ import Slideshow from './Slideshow';
 import Circle from './Circle';
 import { SocialIcon } from 'react-social-icons';
 import { NavLink } from 'react-router-dom';
-//header image links to home
 const Layout = props => (
     <>
         <Navbar />
+        <br/>
             <header style={{ background: 'white'}}>
             </header>
-            <div style={{ padding: 0, background: 'white' }}>
+            <div style={{ padding: 8, background: 'white'}}>
                 {props.children}
             </div>
-            <div style={{ padding: 40, background: 'pink' }}>
+            <div style={{ padding: 8, background: 'white' }}>
           <Footer/>
             </div>
-
     </>
 )
 

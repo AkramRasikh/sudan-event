@@ -6,8 +6,13 @@ export const eventsArray = [
     location: "Rumis Cave",
     description: "A night that celebrated the Kandaka (Nubian Queen). This evening consisted of incredible talks by strong Sudanese women who tackled the roles of the women, the roles of doctors, and the roles of the youth to name a few in the Sudan uprisings. The night also showcased incredible female talent and was a great space that was all about empowering and elevating the status of the woman.",
       images:[
+      { url: 'https://i.ibb.co/7vvkCY6/Whats-App-Image-2019-07-30-at-12-33-12-3.jpg', description: 'this is a description' },
       { url: 'https://i.ibb.co/YZKPFk4/Whats-App-Image-2019-07-30-at-12-33-11.jpg', description: 'this is a description' },
-      { url: 'https://i.ibb.co/2SdSHMC/Whats-App-Image-2019-07-30-at-12-33-12-2.jpg', description: 'this is a description' },],
+      { url: 'https://i.ibb.co/2SdSHMC/Whats-App-Image-2019-07-30-at-12-33-12-2.jpg', description: 'this is a description' },
+      { url: 'https://i.ibb.co/zx997DY/Whats-App-Image-2019-07-30-at-12-33-12-4.jpg', description: 'this is a description' },
+      { url: 'https://i.ibb.co/kmm6FyM/Screen-Shot-2019-08-15-at-21-58-36.png', description: 'this is a description' },
+
+    ],
   },
   {
     name: "Diaspora: Voice of the revolution",
@@ -37,7 +42,7 @@ export const eventsArray = [
     date: "21st Jun 2019",
     time: "",
     location: "European Commission London Office",
-    description: "A vigil for the fallen martyrs of Sudan",
+    description: "A vigil for the fallen martyrs of Sudan.",
     images:[
       { url: 'https://i.ibb.co/CBrykSv/DSC0016.jpg', description: 'this is a description' },
       { url: 'https://i.ibb.co/R6KgM7y/DSC0003.jpg', description: 'this is a description' },
@@ -106,18 +111,6 @@ export const eventsArray = [
     location: "Richmond Terrace",
     description: "Rape has long been used for politcal gain in Sudan and this revolution has not been any different. A stand/protest was organised to help support all the victims of rape, men, women and children as well as rememberance and solidarity with the martyrs who lost their lives. The stand had the usual passion and vibe that we have seen time and time again from the Sudanese protests with a few NEW English chants. Money was also raised to support the pink for Kandaka campaign, and the Ahfad clinic which will be helping those victims of rape through the selling of items such as t-shirts and bags. Protests are key to our action here in the UK as not only does it show the UK government that we are not going to give up, but it also provides an outlet or a release for the diaspora to exhale out all their anger and hurt.",
       images:[
-      { url: 'this is a url', description: 'this is a description' },
-      { url: 'this is a url', description: 'this is a description' },
-      { url: 'this is a url', description: 'this is a description' },
-    ],
-  },
-  {
-    name: "Migrant Support Clinic",
-    date: "date",
-    time: "time",
-    location: "Rumis Cave",
-    description: "The first ever Youth Led Migrant support clinic will be launching on Sunday. This idea was born out of discussions amongst the Youth who felt that Migration was an issue to be dealt with immediately. Upon discussing with some Migrants a collective agreement was agreed to launch a Migrant Support Clinic that would happen fortnightly. The clinic would help with social and educational support, as well as reading and translating documents, helping with CVs and just generally creating a fun and safe environment for Migrants to come and connect with the wider community. The organisers of the Migrant Support clinic are still looking for volunteers so if you are interested in helping please email: uncensored.hn@gmail.com",
-      images: [
       { url: 'this is a url', description: 'this is a description' },
       { url: 'this is a url', description: 'this is a description' },
       { url: 'this is a url', description: 'this is a description' },

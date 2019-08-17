@@ -1,9 +1,10 @@
 export const projectsArray = [
   {
     title: "Migrant Clinic",
-    description: "",
+    description: "The first ever Youth Led Migrant support clinic will be launching on Sunday. This idea was born out of discussions amongst the Youth who felt that Migration was an issue to be dealt with immediately. Upon discussing with some Migrants a collective agreement was agreed to launch a Migrant Support Clinic that would happen fortnightly. The clinic would help with social and educational support, as well as reading and translating documents, helping with CVs and just generally creating a fun and safe environment for Migrants to come and connect with the wider community. The organisers of the Migrant Support clinic are still looking for volunteers so if you are interested in helping please email us at sudanuk_@gmail.com",
     time: "",
-    location: "",
+    location: " Rumi's Cave, Carlton Vale, London NW6 5HG",
+    images: [],
   },
   {
     title: "Protests in London",

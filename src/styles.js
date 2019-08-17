@@ -31,7 +31,7 @@ export const GlobalStyle = createGlobalStyle`
       float: center;
       }
     h1{
-      text-align: center;
+      text-align: left;
       color: #005F8D;
     }
     .white{
@@ -73,38 +73,58 @@ export const GlobalStyle = createGlobalStyle`
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 30px;
     text-decoration: none;
   }
   .white{
     color: white;
 
   }
-  .circle{
-	background: #005F8D;
-  	border-radius: 200px;
-  	color: white;
-  	height: 200px;
-  	font-weight: bold;
-  	width: 200px;
 
-    animation-duration: 3s;
-    animation-name: slidein;
-    animation-iteration-count: 1;
+   ul {
+     margin: 0 auto;
+     text-align: center;
+ }
+
+ li {
+     display: inline-block;
+     vertical-align: top;
+     padding: 0px;
+ }
+ * {
+   box-sizing: border-box;
+ }
+
+ /* Create two equal columns that floats next to each other */
+ .column {
+   float: left;
+   width: 50%;
+   padding: 10px;
+   height: 300px; /* Should be removed. Only for demonstration */
+ }
+
+ /* Clear floats after the columns */
+ .row:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+
+a{
+  color: #005F8D;
 }
 
-
-.block{
-	border: 1px solid red;
-  	text-align: center;
-  	vertical-align: middle;
+.footer {
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #005F8D;
+  color: white;
+  text-align: center;
 }
-.dropdown{
-
 }
-  li a:hover {
-    background-color: #000
-;
-  }
+
   }
 `;

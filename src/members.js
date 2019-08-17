@@ -8,18 +8,18 @@ export const membersArray = [
     insta: ""
   },
   {
-    role: "Financial Officer",
-    name: "Hayfaa Abdalla",
-    description: " ",
-    quote: '"I applied for this role to use this as an opportunity to use my Accounting background to help my homeland, as well as a chance for me lead a financial project outside of my everyday job. So anything £ related I am the woman you need - and my aim is to keep all finances clear and transparent. No kezan thieves here."',
-    contact: "",
-    insta: ""
-  },
-  {
     role: "Vice Chair",
     name: "Malaz Osman",
     description: "",
     quote: '"I believe my academic background and my personal experiences will allow me to significantly contribute to the role of Vice-chair. I have been involved in great leadership positions at my work experience in Parsons Brinckerhoff, Google and in building my own business."',
+    contact: "",
+    insta: ""
+  },
+  {
+    role: "Financial Officer",
+    name: "Hayfaa Abdalla",
+    description: " ",
+    quote: '"I applied for this role to use this as an opportunity to use my Accounting background to help my homeland, as well as a chance for me lead a financial project outside of my everyday job. So anything £ related I am the woman you need - and my aim is to keep all finances clear and transparent. No kezan thieves here."',
     contact: "",
     insta: ""
   },
