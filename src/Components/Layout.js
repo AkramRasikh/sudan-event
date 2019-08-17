@@ -7,6 +7,8 @@ import { SocialIcon } from 'react-social-icons';
 import { NavLink } from 'react-router-dom';
 const Layout = props => (
     <>
+
+    
         <Navbar />
         <br/>
             <header style={{ background: 'white'}}>

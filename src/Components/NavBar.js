@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 function Navbar() {
   return (
+<div>
 <ul>
   <li><NavLink to='/events' exact>Events</NavLink></li>
   <li><NavLink to='/projects' exact>Projects</NavLink></li>
@@ -10,6 +11,7 @@ function Navbar() {
   <li><NavLink to='/about-us' exact>About</NavLink></li>
 
  </ul>
+ </div>
   );
 }
 

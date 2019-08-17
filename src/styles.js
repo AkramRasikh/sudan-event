@@ -19,10 +19,7 @@ export const GlobalStyle = createGlobalStyle`
       font-size: 25px;
       text-align: center;
     }
-    .missionStatement{
-      width: 100%;
-      background-color: white;
-    }
+
     p{
       font-size: 18px;
       color: #005F8D;
@@ -34,9 +31,7 @@ export const GlobalStyle = createGlobalStyle`
       text-align: left;
       color: #005F8D;
     }
-    .white{
-      color: white;
-    }
+
     h2{
       color: #005F8D;
       text-align: left;
@@ -52,7 +47,7 @@ export const GlobalStyle = createGlobalStyle`
     position: fixed;
   }
   li{
-    float: left;
+    float: right;
   }
   AwesomeSlider{
     width: 100%;
@@ -69,22 +64,14 @@ export const GlobalStyle = createGlobalStyle`
     }
 
   }
+
   li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 10px 30px;
+    padding: 10px 20px;
     text-decoration: none;
   }
-  .white{
-    color: white;
-
-  }
-
-   ul {
-     margin: 0 auto;
-     text-align: center;
- }
 
  li {
      display: inline-block;
@@ -95,20 +82,7 @@ export const GlobalStyle = createGlobalStyle`
    box-sizing: border-box;
  }
 
- /* Create two equal columns that floats next to each other */
- .column {
-   float: left;
-   width: 50%;
-   padding: 10px;
-   height: 300px; /* Should be removed. Only for demonstration */
- }
 
- /* Clear floats after the columns */
- .row:after {
-   content: "";
-   display: table;
-   clear: both;
- }
 
 a{
   color: #005F8D;
@@ -125,6 +99,5 @@ a{
   text-align: center;
 }
 }
-
   }
 `;
