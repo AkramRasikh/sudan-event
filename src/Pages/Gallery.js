@@ -11,6 +11,7 @@ const Gallery = props => {
             <p>{props.location.state.description}</p>
 
             <div>
+            <br/>
   <AwesomeSlider>
     {props.location.state.images.map(img=> (
     <div data-src={img.url} />))}

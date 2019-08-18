@@ -12,8 +12,8 @@ const MemberCard = ({ member }) => {
 
   return (
     <li>
-      <h2>{name}</h2>
-      <p align="left"><i>{role}</i></p>
+      <h4>{name}</h4>
+      <p align="left"><i><div class="blue">{role}</div></i></p>
       <p align="left">{quote}</p>
       <br/>
     </li>

@@ -69,7 +69,12 @@ export const GlobalStyle = createGlobalStyle`
   AwesomeSlider{
     width: 100%;
   }
-
+  div.white{
+    color: white;
+  }
+  div.blue{
+    color: #005F8D;
+  }
   div.a {
     font-size: 21px;
   }
@@ -100,7 +105,6 @@ a{
 }
 
 .footer {
-  padding: 10px;
   position: fixed;
   left: 0;
   bottom: 0;

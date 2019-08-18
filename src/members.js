@@ -27,7 +27,7 @@ export const membersArray = [
     role: "Protest Organiser",
     name: "Abrar Fadol",
     description: " ",
-    quote: "Through this role I feel as though I can make a massive change and get general public to be aware of everything that's happening which they don't see. I've always wanted to make a change in my community and now getting the opportunity to make a change to my home country makes me proud and overwhelmed.",
+    quote: '"Through this role I feel as though I can make a massive change and get the public to be aware of everything that is happening. I have always wanted to make a change in my community and now getting this opportunity to make a change to my home country makes me proud and overwhelmed."',
     contact: "@abrar.fx",
     insta: "https://www.instagram.com/abrar.fx/"
   },
@@ -59,7 +59,7 @@ export const membersArray = [
     role: "Public Relations",
     name: "Hala El Shafie",
     description: " ",
-    quote: "In todays life, its all about appearances, so for me its important to make this committee very public and open to all! As well as this my role will be to get us that attention and awareness we need and highlight al the youths efforts across the Sudanese Diaspora in the UK.",
+    quote: '"In todays life, its all about appearances, so for me its important to make this committee very public and open to all! As well as this my role will be to get us that attention and awareness we need and highlight al the youths efforts across the Sudanese Diaspora in the UK."',
     contact: "@halael_shafie",
     insta: "https://www.instagram.com/halael_shafie/"
   },
