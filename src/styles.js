@@ -68,6 +68,9 @@ export const GlobalStyle = createGlobalStyle`
   }
   AwesomeSlider{
     width: 100%;
+    height: 100%;
+    autoPlay: true;
+    interval: 3000;
   }
   div.white{
     color: white;

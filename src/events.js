@@ -1,12 +1,16 @@
+import React from 'react';
 export const eventsArray = [
   {
     name: "The Sit -In",
-    date: "tbc",
+    date: "to be confirmed",
     time: "",
     location: "",
     description: "A replica of the sit-in that took place outside the Military Headquarters, Khartoum. This event will allow for a real chance to experience to an extent what it was like to be at the hub of creativity and unity. Great food, music, activities and plenty more suprises. An event not to be missed!",
+    poster: "",
     images:
-      [ { url: 'this is a url', description: 'this is a description' },
+      [
+
+    {url: 'https://i.ibb.co/hKRLXhC/photos-coming-soon.jpg', description: ''},
     { url: 'this is a url', description: 'this is a description' },
     { url: 'this is a url', description: 'this is a description' }
   ],
@@ -17,8 +21,9 @@ export const eventsArray = [
   time: "",
   location: "",
   description: ' A Night of Sudanese Creativity and Expression ft. The Scorpios: The closing show and a creative fundraiser night, bringing together performances from Sudanese and non-Sudanese musicians, poets, artists, DJs. Funds will go to neighbourhood committees in Sudan and other arms of civil society resisting the military regime (TBD)',
+  poster: "../Images/madaniya.jpg",
     images:[
-    { url: 'this is a url', description: 'this is a description' },
+      {url: 'https://i.ibb.co/hKRLXhC/photos-coming-soon.jpg', description: ''},
     { url: 'this is a url', description: 'this is a description' },
     { url: 'this is a url', description: 'this is a description' },
   ],
@@ -29,8 +34,9 @@ export const eventsArray = [
   time: "",
   location: "",
   description: "Following on from the political discussion this event will be an action-based meeting focussing more on defining our role in the revolution in diaspora and mapping ways to concretely support and enable different bodies of civil society back home, with a special focus on neighbourhood committees. ",
+  poster:"",
   images:[
-    { url: 'this is a url', description: 'this is a description' },
+    {url: 'https://i.ibb.co/hKRLXhC/photos-coming-soon.jpg', description: ''},
     { url: 'this is a url', description: 'this is a description' },
     { url: 'this is a url', description: 'this is a description' },
   ],
@@ -41,8 +47,9 @@ export const eventsArray = [
   time: "",
   location: "",
   description: " Youth Political Discussion: Lecture by Boushra Gamar on the history of conflict/resistance in Sudan leading up to the Sudanese revolution, followed by  a political discussion amongst the Sudanese youth in London on several developments of the revolution and the role of diaspora in that context. ",
+  poster: "",
   images:[
-    { url: 'this is a url', description: 'this is a description' },
+    {url: 'https://i.ibb.co/hKRLXhC/photos-coming-soon.jpg', description: ''},
     { url: 'this is a url', description: 'this is a description' },
     { url: 'this is a url', description: 'this is a description' },],
 },
@@ -52,8 +59,9 @@ export const eventsArray = [
   time: "",
   location: "",
   description: "Young People's Art Workshop on the Sudanese Revolution: The revolution in Sudan is led by the youth of the country and so it is important to facilitate spaces where they can develop their ideas/voice. Children and young people of 4-16 years of age are invited to think/talk/create through the vehicle and language of art. We will be using prompts to help young people give physical form to the ideas discussed around revolution.",
-    images:[
-    { url: 'this is a url', description: 'this is a description' },
+  poster: "",
+  images:[
+    {url: 'https://i.ibb.co/hKRLXhC/photos-coming-soon.jpg', description: ''},
     { url: 'this is a url', description: 'this is a description' },
     { url: 'this is a url', description: 'this is a description' },],
 },
@@ -63,8 +71,9 @@ export const eventsArray = [
   time: "",
   location: "",
   description: "This session will provide a space for the Sudani diaspora, with a specific focus on refugees and asylum seekers, to heal/talk/connect and share/discuss emotions and thoughts surrounding the revolution, their relationship to Sudan and Sudanese history, and any anxieties/hopes for the future.",
+  poster: "",
     images: [
-    { url: 'this is a url', description: 'this is a description' },
+      {url: 'https://i.ibb.co/hKRLXhC/photos-coming-soon.jpg', description: ''},
     { url: 'this is a url', description: 'this is a description' },
     { url: 'this is a url', description: 'this is a description' },
   ],
@@ -74,9 +83,10 @@ export const eventsArray = [
   date: "5th Aug 2019",
   time: "",
   location: "",
-description: "The panel discussion will act as an informative session, encompassing the novelty/limitations of this revolutionary moment and what lessons can be drawn from its parallels in our rich Sudanese history moving forward.",
+  description: "The panel discussion will act as an informative session, encompassing the novelty/limitations of this revolutionary moment and what lessons can be drawn from its parallels in our rich Sudanese history moving forward.",
+  poster: "",
     images:[
-    { url: 'this is a url', description: 'this is a description' },
+      {url: 'https://i.ibb.co/hKRLXhC/photos-coming-soon.jpg', description: ''},
     { url: 'this is a url', description: 'this is a description' },
     { url: 'this is a url', description: 'this is a description' },
   ],
@@ -87,8 +97,9 @@ description: "The panel discussion will act as an informative session, encompass
   time: "2:30-5:30pm",
   location: "Rumis Cave",
   description: " A community support workshop facilitated by mental health professionals providing a safe space centering Sudanese people of all genders,sexuality, tribes,religions,languages and abilities.",
+  poster: "",
     images:[
-    { url: 'this is a url', description: 'this is a description' },
+      {url: 'https://i.ibb.co/hKRLXhC/photos-coming-soon.jpg', description: ''},
     { url: 'this is a url', description: 'this is a description' },
     { url: 'this is a url', description: 'this is a description' },],
 },
@@ -98,8 +109,9 @@ description: "The panel discussion will act as an informative session, encompass
   time: "1-5pm",
   location: "Richmond Terrace",
   description: "Rape has long been used for politcal gain in Sudan and this revolution has not been any different. A stand/protest was organised to help support all the victims of rape, men, women and children as well as rememberance and solidarity with the martyrs who lost their lives. The stand had the usual passion and vibe that we have seen time and time again from the Sudanese protests with a few NEW English chants. Money was also raised to support the pink for Kandaka campaign, and the Ahfad clinic which will be helping those victims of rape through the selling of items such as t-shirts and bags. Protests are key to our action here in the UK as not only does it show the UK government that we are not going to give up, but it also provides an outlet or a release for the diaspora to exhale out all their anger and hurt.",
+  poster: "",
     images:[
-    { url: 'this is a url', description: 'this is a description' },
+      {url: 'https://i.ibb.co/hKRLXhC/photos-coming-soon.jpg', description: ''},
     { url: 'this is a url', description: 'this is a description' },
     { url: 'this is a url', description: 'this is a description' },
   ],
@@ -110,8 +122,9 @@ description: "The panel discussion will act as an informative session, encompass
   time: "6pm - 10pm",
   location: "Rumis Cave",
   description: "A night filled with creative talent from different Sudanese and Non - Sudanese performers and good music. The idea of this night was to get the youth socialising and also give them a chance to relax, unwind in a creative environment. The first part of the night was an open mic night encouraging many young talents to come and take the stage, and the second part was taken over by DJ Tijan a Sudanese DJ who got the party started with the biggest UK/US and Sudanese bangers. Whilst tensions are still high in Sudan it is crucial that there are more events/activities that allow the diaspora to unwind, relax, and re-connect with their culture in a positive way. Mental health is and will always be a priority. ",
+  poster: "",
   images:[
-    { url: 'this is a url', description: 'this is a description' },
+    {url: 'https://i.ibb.co/hKRLXhC/photos-coming-soon.jpg', description: ''},
     { url: 'this is a url', description: 'this is a description' },
     { url: 'this is a url', description: 'this is a description' },
   ],
@@ -122,6 +135,7 @@ description: "The panel discussion will act as an informative session, encompass
   time: "11am - 7pm",
   location: "Bay 20 Community Centre",
   description: "This festival was all about celebrating African culture. There was a centre stage where different performers from different African cultures showcased a part of their culture, as well as Fashion shows. The park was also filled with gazebos selling different foods, clothing, and other cultural items. This festival will hopefully be a yearly occurrence, and the organisers hope that with each year the festival becomes more and more representative of ALL African cultures. So make sure you join in next year and get your country represented!",
+  poster: "",
   images:[
     { url: 'https://i.ibb.co/WDQf73t/DSC0151.jpg', description: 'this is a description' },
     { url: 'https://i.ibb.co/kqDVWrb/DSC0166.jpg', description: 'this is a description' },
@@ -129,6 +143,13 @@ description: "The panel discussion will act as an informative session, encompass
     { url: 'https://i.ibb.co/5M7f452/DSC0145.jpg', description: 'this is a description' },
     { url: 'https://i.ibb.co/9ZsfkWy/DSC0122.jpg', description: 'this is a description' },
     { url: 'https://i.ibb.co/9YnMHPh/DSC0154.jpg', description: 'this is a description' },
+    { url: 'https://i.ibb.co/gPBRpwL/DSC0114.jpg', description: 'this is a description' },
+    { url: 'https://i.ibb.co/7JD8yPm/DSC0106.jpg', description: 'this is a description' },
+    { url: 'https://i.ibb.co/thmWNtp/DSC0105.jpg', description: 'this is a description' },
+    { url: 'https://i.ibb.co/KWVwxBY/DSC0100.jpg', description: 'this is a description' },
+    { url: 'https://i.ibb.co/Lnk9q5W/DSC0083.jpg', description: 'this is a description' },
+    { url: 'https://i.ibb.co/QHjd972/DSC0008.jpg', description: 'this is a description' },
+
   ],
 },
 {
@@ -137,10 +158,35 @@ description: "The panel discussion will act as an informative session, encompass
   time: "10am - 9pm",
   location: "Wembley International Hotel",
   description: "A conference looking into how far we have come in the revolution and what is next, by further analysing the role of the youth and women in this revolution and what threats there are to stealing away the revolution from the people. A large segment of the day delved really deep into censorship, social media, student activism, independent investigations into the TMC, appointing a new leader and reducing tensions. This was wrapped up nicely by brainstorming effective action plans and ended with a showcase of incredible Sudanese Talent. With the rapidly changing situation in Sudan it is crucial we continuously keep discussions alive, and re-evaluate what our roles are and what we can do to make this revolution a success.",
+  poster: "",
     images:[
-    { url: 'this is a url', description: 'this is a description' },
-    { url: 'this is a url', description: 'this is a description' },
-    { url: 'this is a url', description: 'this is a description' },],
+      {url: 'https://i.ibb.co/bQxcY4F/DSC0002.jpg', description: ''},
+    { url: 'https://i.ibb.co/qRzM7NG/DSC0004.jpg', description: 'this is a description' },
+    { url: 'https://i.ibb.co/DVt9tWq/DSC0011.jpg', description: 'this is a description' },
+    { url: 'https://i.ibb.co/Y7HXpYH/DSC0020.jpg', description: 'this is a description' },
+    { url: 'https://i.ibb.co/Lgs2Ybr/DSC0022.png', description: 'this is a description' },
+    { url: 'https://i.ibb.co/hF9PWjX/DSC0049.jpg', description: 'this is a description' },
+    { url: 'https://i.ibb.co/k3GPgJD/DSC0008.jpg', description: 'this is a description' },
+    { url: 'https://i.ibb.co/kKggYkV/DSC0050.png', description: 'this is a description' },
+    { url: 'https://i.ibb.co/hZbLXY5/DSC0055.png', description: 'this is a description' },
+    { url: 'https://i.ibb.co/hZbLXY5/DSC0056.png', description: 'this is a description' },
+    { url: 'https://i.ibb.co/hZbLXY5/DSC0057.png', description: 'this is a description' },
+    { url: 'https://i.ibb.co/hZbLXY5/DSC0060.png', description: 'this is a description' },
+    { url: 'https://i.ibb.co/hZbLXY5/DSC0062.png', description: 'this is a description' },
+    { url: 'https://i.ibb.co/hZbLXY5/DSC0066.png', description: 'this is a description' },
+    { url: 'https://i.ibb.co/hZbLXY5/DSC0067.png', description: 'this is a description' },
+    { url: 'https://i.ibb.co/hZbLXY5/DSC0068.png', description: 'this is a description' },
+    { url: 'https://i.ibb.co/hZbLXY5/DSC0075.png', description: 'this is a description' },
+    { url: 'https://i.ibb.co/hZbLXY5/DSC0076.png', description: 'this is a description' },
+    { url: 'https://i.ibb.co/hZbLXY5/DSC0083.png', description: 'this is a description' },
+    { url: 'https://i.ibb.co/hZbLXY5/DSC0085.png', description: 'this is a description' },
+    { url: 'https://i.ibb.co/hZbLXY5/DSC0094.png', description: 'this is a description' },
+    { url: 'https://i.ibb.co/hZbLXY5/DSC0095.png', description: 'this is a description' },
+    { url: 'https://i.ibb.co/hZbLXY5/DSC0099.png', description: 'this is a description' },
+    { url: 'https://i.ibb.co/hZbLXY5/DSC0100.png', description: 'this is a description' },
+    { url: 'https://i.ibb.co/hZbLXY5/DSC0106.png', description: 'this is a description' },
+    { url: 'https://i.ibb.co/hZbLXY5/DSC0114.png', description: 'this is a description' },],
+
 },
 {
   name: "Vigil for Sudan",
@@ -148,6 +194,7 @@ description: "The panel discussion will act as an informative session, encompass
   time: "",
   location: "European Commission London Office",
   description: "A vigil for the fallen martyrs of Sudan.",
+  poster: "",
   images:[
     { url: 'https://i.ibb.co/CBrykSv/DSC0016.jpg', description: 'this is a description' },
     { url: 'https://i.ibb.co/R6KgM7y/DSC0003.jpg', description: 'this is a description' },
@@ -177,6 +224,7 @@ description: "The panel discussion will act as an informative session, encompass
   time: "6pm -9pm",
   location: "Canalside",
   description: "This event was all about discussing in detail about what the role of the diaspora is in the revolution - particulary post the 3rd June massacre. Many of us have sat and thought what can we actually do. This event broke down our role into political lobbying, social media lobbying and creating a support network. A great campaign was also launched and that was the Fathers Day Campaign where children were encouraged to take an image with their fathers holding signs that say ‘My gift to you dad is ….’ followed by a statement that tackles an issue in Sudan. This campaign was effective in using the fathers day trend to highlight the plight of the Sudanese people",
+  poster: "",
   images:[
     { url: 'https://i.ibb.co/Z2GMJdV/DSC0038.jpg', description: 'this is a description' },
     { url: 'https://i.ibb.co/4t3wsNq/DSC0040.jpg', description: 'this is a description' },
@@ -195,16 +243,13 @@ description: "The panel discussion will act as an informative session, encompass
   ],
 },
 
-
-
-
-
   {
     name: "Kandaka Night",
     date: "8th June 2019",
     time: "6pm-9pm",
     location: "Rumis Cave",
     description: "A night that celebrated the Kandaka (Nubian Queen). This evening consisted of incredible talks by strong Sudanese women who tackled the roles of the women, the roles of doctors, and the roles of the youth to name a few in the Sudan uprisings. The night also showcased incredible female talent and was a great space that was all about empowering and elevating the status of the woman.",
+    poster: "",
       images:[
       { url: 'https://i.ibb.co/7vvkCY6/Whats-App-Image-2019-07-30-at-12-33-12-3.jpg', description: 'this is a description' },
       { url: 'https://i.ibb.co/YZKPFk4/Whats-App-Image-2019-07-30-at-12-33-11.jpg', description: 'this is a description' },

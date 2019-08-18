@@ -7,6 +7,7 @@ const Events = props => (
         <ul class="grid" style={{background: 'white'}}>
 <div class="a">
         <h1>Events</h1>
+        <h3> What's happening in the UK...</h3>
         </div>
         <div class="wrapper">
             {eventsArray.map((event, index) =>

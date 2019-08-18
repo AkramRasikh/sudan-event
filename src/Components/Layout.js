@@ -8,15 +8,15 @@ import { NavLink } from 'react-router-dom';
 const Layout = props => (
     <>
 
-    
+
         <Navbar />
         <br/>
             <header style={{ background: 'white'}}>
             </header>
-            <div style={{ padding: 8, background: 'white'}}>
+            <div style={{ padding: 0, background: 'white'}}>
                 {props.children}
             </div>
-            <div style={{ padding: 8, background: 'white' }}>
+            <div style={{ padding: 0, background: 'white' }}>
           <Footer/>
             </div>
     </>

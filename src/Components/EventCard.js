@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 const EventCard = ({ event }) => {
   const {
     description,
+    poster,
     location,
     time,
     date,

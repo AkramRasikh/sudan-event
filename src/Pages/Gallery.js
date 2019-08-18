@@ -9,7 +9,6 @@ const Gallery = props => {
             <h1>{props.location.state.eventName}</h1>
             <br/>
             <p>{props.location.state.description}</p>
-
             <div>
             <br/>
   <AwesomeSlider>
