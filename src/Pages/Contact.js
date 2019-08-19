@@ -13,6 +13,7 @@ const AboutUs = props => (
       {membersArray.map((member, index) => <div class='gridElement'><li>
       <MemberCard member={member} key={index}/></li></div>)}
   </ul>
+
 </div>
 );
 export default AboutUs;

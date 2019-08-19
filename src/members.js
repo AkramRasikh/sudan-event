@@ -4,7 +4,7 @@ export const membersArray = [
     name: "Mohamed Takroni",
     description: "",
     quote: '"As chair - my main aim is bringing together the various youth groups in London, thus creating a presence that will heighten awareness levels of issues occurring in Sudan. This is my duty towards my fellow brothers and sisters."',
-    contact: "",
+    contact: "../Images/malaz.png",
     insta: ""
   },
   {
@@ -12,7 +12,7 @@ export const membersArray = [
     name: "Malaz Osman",
     description: "",
     quote: '"I believe my academic background and my personal experiences will allow me to significantly contribute to the role of Vice-chair. I have been involved in great leadership positions at my work experience in Parsons Brinckerhoff, Google and in building my own business."',
-    contact: "",
+    contact: "../Images/malaz.png",
     insta: ""
   },
   {
@@ -24,11 +24,20 @@ export const membersArray = [
     insta: ""
   },
   {
+    role: "Web Developer",
+    name: "Sarah Elderderi",
+    description: " ",
+    quote: '"I like building things that people can use, and I would like my code to have an impact in my community. I will therefore do as much as I can to help, applying my technical skills, so that we can see a stronger and more productive Sudanese diaspora and in sha Allah a new Sudan too."',
+    contact: "../Images/malaz.png",
+    insta: ""
+  },
+
+  {
     role: "Protest Organiser",
     name: "Abrar Fadol",
     description: " ",
     quote: '"Through this role I feel as though I can make a massive change and get the public to be aware of everything that is happening. I have always wanted to make a change in my community and now getting this opportunity to make a change to my home country makes me proud and overwhelmed."',
-    contact: "@abrar.fx",
+    contact: "../Images/malaz.png",
     insta: "https://www.instagram.com/abrar.fx/"
   },
   {
@@ -44,7 +53,7 @@ export const membersArray = [
     name: "Negla Abdalla",
     description: " ",
     quote: '"The power of social media is undeniable. We turned social media blueforSudan at a simple tap of a button. My goal is simply to break the internet over and over and over again. With my background in digital marketing and the manpower now rebranded KANDAKA POWER of the Sudanese community I believe we can achieve this."',
-    contact: "@neglaaaa",
+    contact: "../Images/malaz.png",
     insta: "https://www.instagram.com/neglaaaa/"
   },
   {
@@ -52,23 +61,15 @@ export const membersArray = [
     name: "Sahar Noor",
     description: " ",
     quote: '"I am the one you want to talk to for any event ideas you have. I have a strong background in events organising and know that they key to any great event is great planning. With my role I will work closely with our Marketing Officer and Public Relations Officer to pull out events that are not to be missed!"',
-    contact: "",
+    contact: "../Images/malaz.png",
     insta: ""
-  },
-  {
-    role: "Public Relations",
-    name: "Hala El Shafie",
-    description: " ",
-    quote: '"In todays life, its all about appearances, so for me its important to make this committee very public and open to all! As well as this my role will be to get us that attention and awareness we need and highlight al the youths efforts across the Sudanese Diaspora in the UK."',
-    contact: "@halael_shafie",
-    insta: "https://www.instagram.com/halael_shafie/"
   },
   {
     role: "Disability & Dyslexia Support",
     name: "Yousr Ahmed",
     description: "",
     quote: '"This role holds  great personal meaning to me. For long I have watched how this community has been neglected and ignored and I feel that it is crucial that we build unity and a spaces that welcome all. One of the ways in which I want to bridge that gap is by offering sign language workshops. This is crucial for me because communication is key to any great relationship."',
-    contact: "@yous_elyas",
+    contact: "../Images/malaz.png",
     insta: "https://www.instagram.com/yous_elyas/"
   },
   {
@@ -84,7 +85,7 @@ export const membersArray = [
     name: "Hadeal Abdelatti",
     description: " ",
     quote: '"I want to use my political knowledge to help guide others and inform the Sudanese community and beyond on how they can employ that in their lives and in the revolution."',
-    contact: "@hadealspeaks",
+    contact: "../Images/malaz.png",
     insta: "https://www.instagram.com/hadealspeaks/"
   },
   {
@@ -92,7 +93,7 @@ export const membersArray = [
     name: "Leemya Abdalla",
     description: " ",
     quote: '"My passion has always been Marketing. I am keen to use the skill set, experience and expertise that I have learnt from my degree, internshops and emplpyment to benefit the Sudanese community. I will be using traditional marketing strategies - as well as fresh, new approaches."',
-    contact: " ",
+    contact:"../Images/malaz.png",
     insta:""
   },
 ]

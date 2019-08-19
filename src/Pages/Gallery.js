@@ -10,7 +10,10 @@ const Gallery = props => {
             <br/>
             <p>{props.location.state.description}</p>
             <div>
-            <br/>
+            <div>
+            <img src={props.location.state.poster}
+                    /> </div>
+
   <AwesomeSlider>
     {props.location.state.images.map(img=> (
     <div data-src={img.url} />))}
