@@ -56,7 +56,7 @@ export const GlobalStyle = createGlobalStyle`
     ul {
       list-style-type: none;
       margin: 0;
-      padding: 0;
+      padding: 0px;
       overflow: hidden;
       background-color: #005F8D;
     }
@@ -130,7 +130,7 @@ h4{
  li {
      display: inline-block;
      vertical-align: top;
-     padding: 0px;
+     padding: 10px;
  }
  * {
    box-sizing: border-box;
@@ -143,6 +143,7 @@ a{
 }
 
 .footer {
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
