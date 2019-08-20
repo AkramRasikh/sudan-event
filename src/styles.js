@@ -15,17 +15,11 @@ export const GlobalStyle = createGlobalStyle`
       margin-left: auto;
       margin-right: auto;
     }
-    .bigText{
-      font-size: 25px;
-      text-align: center;
-    }
+  
 .float{
   float: left;
 }
-    p{
-      font-size: 16px;
-      color: black;
-    }
+
     img{
       float: center;
       }
@@ -64,17 +58,6 @@ export const GlobalStyle = createGlobalStyle`
     position: fixed;
   }
 
-  * {
-  box-sizing: border-box;
-}
-
-/* Create two equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
 
 /* Clear floats after the columns */
 .row:after {
@@ -83,7 +66,7 @@ export const GlobalStyle = createGlobalStyle`
   clear: both;
 }
 p {
-  padding: 15px;
+  padding: 5px;
 }
 h1{
   padding: 15px;
@@ -117,25 +100,54 @@ h4{
     font-size: 21px;
   }
   div.b {
-    font-size: 1px;
+    font-size: 10px;
   }
   li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 10px 10px;
+    padding: 3px 10px;
     text-decoration: none;
   }
 
  li {
      display: inline-block;
      vertical-align: top;
-     padding: 10px;
+     padding: 0px;
  }
  * {
    box-sizing: border-box;
  }
 
+
+ .flex-container {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+
+   display: -webkit-box;
+   display: -moz-box;
+   display: -ms-flexbox;
+   display: -webkit-flex;
+   display: flex;
+
+   -webkit-flex-flow: row wrap;
+   justify-content: space-around;
+ }
+
+ .flex-item {
+   background: #005F8D;
+   padding: 5px;
+   width: 200px;
+   height: 150px;
+   margin-top: 10px;
+
+   line-height: 150px;
+   color: white;
+   font-weight: normal;
+   font-size: 1em;
+   text-align: center;
+ }
 
 
 a{
