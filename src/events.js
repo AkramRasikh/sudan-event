@@ -94,11 +94,11 @@ export const eventsArray = [
   ],
 },
 {
-  name: "Beats of the Antonov Screening + Panel Discussion",
+  name: "Beats of the Antonov",
   date: "5th Aug 2019",
   time: "",
   location: "",
-  description: "The panel discussion will act as an informative session, encompassing the novelty/limitations of this revolutionary moment and what lessons can be drawn from its parallels in our rich Sudanese history moving forward.",
+  description: "Beats of the Antonov Screening + Panel Discussion: The panel discussion will act as an informative session, encompassing the novelty/limitations of this revolutionary moment and what lessons can be drawn from its parallels in our rich Sudanese history moving forward.",
   poster: 'https://i.ibb.co/JqG3gxg/67894110-873630683037872-8121298873403572224-o.jpg',
     images:[
       {url: 'https://i.ibb.co/hKRLXhC/photos-coming-soon.jpg', description: ''},

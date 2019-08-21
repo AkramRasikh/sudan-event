@@ -27,6 +27,7 @@ const About = props => (
                 <br/>
 
 </div>
+
 );
 
 export default About;

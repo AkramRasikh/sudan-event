@@ -7,7 +7,7 @@ const Events = props => (
         <ul class="flex-container" style={{background: 'white'}}>
 <div class="a">
         <h1>Events</h1>
-        <h3> What's happening in the UK...</h3>
+        <h3> Sudanese events happening in the UK...</h3>
         </div>
             {eventsArray.map((event, index) =>
               <div><li class="flex-item">
