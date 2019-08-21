@@ -25,7 +25,7 @@ export const GlobalStyle = createGlobalStyle`
       }
     h1{
       text-align: left;
-      color: #005F8D;
+      color: #40e0d0;
     }
 
     .wrapper {
@@ -52,7 +52,7 @@ export const GlobalStyle = createGlobalStyle`
       margin: 0;
       padding: 0px;
       overflow: hidden;
-      background-color: #005F8D;
+      background-color: #40e0d0;
     }
   .fixed{
     position: fixed;
@@ -194,7 +194,7 @@ html {
  }
 
  .flex-item {
-   background: #005F8D;
+   background: #40e0d0;
    padding: 5px;
    width: 200px;
    height: 150px;
@@ -217,7 +217,7 @@ a{
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #005F8D;
+  background-color: #40e0d0;
   color: white;
   text-align: center;
 }
