@@ -4,7 +4,7 @@ import { projectsArray } from '../projects';
 
 const Projects = props => (
   <div>
-  <ul class="flex-container" style={{background: 'white'}}>
+  <ul class="flex-container" style={{background: '#FFCC01'}}>
 <div class="a">
   <h1><b>What we're doing now</b></h1>
   </div>

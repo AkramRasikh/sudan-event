@@ -17,7 +17,6 @@ const Home = props => (
                 <br/>
                 </p>
 <NavLink to='/contact' exact><p align="left">Meet our youth committee</p></NavLink>
-<img src={require('../Images/us.jpg')} align="right" width="100%" height="100%"/>
 
 </div>
 

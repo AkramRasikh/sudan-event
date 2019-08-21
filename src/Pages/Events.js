@@ -4,7 +4,7 @@ import EventCard from '../Components/EventCard';
 
 const Events = props => (
     <div>
-        <ul class="flex-container" style={{background: 'white'}}>
+        <ul class="flex-container" style={{background: '#FFCC01'}}>
 <div class="a">
         <h1>Events</h1>
         <h3> Sudanese events happening in the UK...</h3>

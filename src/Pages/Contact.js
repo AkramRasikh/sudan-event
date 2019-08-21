@@ -7,7 +7,7 @@ const AboutUs = props => {
   return (
       <>
     <h1>Meet the committee</h1>
-<ul style={{background: 'white'}}>
+<ul style={{background: '#FFCC01'}}>
 
     <div class="row">
       <div class="column">
@@ -16,7 +16,7 @@ const AboutUs = props => {
       {membersArray.map((member, index) => <li>
       <MemberCard member={member} key={index}/></li>)}
 
-      
+
 </div>
   </div>
   </div>
