@@ -53,8 +53,8 @@ export const membersArray = [
     name: "Negla Abdalla",
     description: " ",
     quote: '"The power of social media is undeniable. We turned social media blueforSudan at a simple tap of a button. My goal is simply to break the internet over and over and over again. With my background in digital marketing and the manpower now rebranded KANDAKA POWER of the Sudanese community I believe we can achieve this."',
-    contact: "../Images/malaz.png",
-    pic: ""
+    contact: "",
+    pic: "https://i.ibb.co/z47Lh86/Whats-App-Image-2019-08-21-at-11-08-23.jpg"
   },
   {
     role: "Event Organiser",
@@ -86,7 +86,7 @@ export const membersArray = [
     description: " ",
     quote: '"I want to use my political knowledge to help guide others and inform the Sudanese community and beyond on how they can employ that in their lives and in the revolution."',
     contact: "",
-    pic: ""
+    pic: "https://i.ibb.co/2s1Gqcr/Whats-App-Image-2019-08-21-at-10-15-57.jpg"
   },
   {
     role: "Marketing Officer",
