@@ -168,7 +168,7 @@ export const eventsArray = [
   ],
 },
 {
-  name: "Uncensored Conference",
+  name: "Uncensored ",
   date: "13th July 2019",
   time: "10am - 9pm",
   location: "Wembley International Hotel",
