@@ -37,7 +37,7 @@ export const membersArray = [
     description: " ",
     quote: '"I like building things that people can use, and I would like my code to have an impact in my community. I will therefore do as much as I can to help, applying my technical skills, so that we can see a stronger and more productive Sudanese diaspora and in sha Allah a new Sudan too."',
     contact: "",
-    pic: "https://i.ibb.co/qpVpRXW/eek.png"
+    pic: "https://i.ibb.co/DCC6BVG/IMG-5465.jpg"
   },
 
   {
