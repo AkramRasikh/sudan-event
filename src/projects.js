@@ -31,7 +31,7 @@ export const projectsArray = [
     title: "English Club",
     description: "We’ve identified one of the major issues with learning English is that many students struggle with traditional textbook methods of learning, and secondly they dont have a space in a community where they can practice speaking English. We want to tackle this issue by delivering English classes using song, movies, and literature to teach and encouraging dialogue between the students.",
     time: "",
-    location: "",
+    location: "Canalside House, 383 Ladbroke Grove, Kensal Green, London W10 5AA ",
     images: [
       {url: 'https://i.ibb.co/hKRLXhC/photos-coming-soon.jpg', description: ''},
     ],

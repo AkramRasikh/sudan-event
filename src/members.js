@@ -24,12 +24,20 @@ export const membersArray = [
     pic: "https://i.ibb.co/VTSS2fb/Whats-App-Image-2019-08-22-at-13-29-21.jpg"
   },
   {
+    role: "Public Relations Officer",
+    name: "Nazik Sharfadin",
+    description: " ",
+    quote: '',
+    contact: "",
+    pic: "https://i.ibb.co/QfdxD70/61ea79d7-8d33-4735-8f94-680535665167-1.jpg"
+  },
+  {
     role: "Web Developer",
     name: "Sarah Elderderi",
     description: " ",
     quote: '"I like building things that people can use, and I would like my code to have an impact in my community. I will therefore do as much as I can to help, applying my technical skills, so that we can see a stronger and more productive Sudanese diaspora and in sha Allah a new Sudan too."',
-    contact: "../Images/malaz.png",
-    pic: ""
+    contact: "",
+    pic: "https://i.ibb.co/qpVpRXW/eek.png"
   },
 
   {
@@ -86,7 +94,7 @@ export const membersArray = [
     description: " ",
     quote: '"I want to use my political knowledge to help guide others and inform the Sudanese community and beyond on how they can employ that in their lives and in the revolution."',
     contact: "",
-    pic: "https://i.ibb.co/2s1Gqcr/Whats-App-Image-2019-08-21-at-10-15-57.jpg"
+    pic: "https://i.ibb.co/zf0wJ2H/91c3815f-6389-4aed-ab50-20029ff503dd.jpg"
   },
   {
     role: "Marketing Officer",
