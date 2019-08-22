@@ -108,6 +108,8 @@ html {
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  color: black;
+  background-color: white;
 }
 
 .container {
@@ -212,7 +214,9 @@ html {
    text-align: center;
  }
 
-
+.blue{
+  background-color: #08C3CC;
+}
 a{
   color: #40e0d0;
 }

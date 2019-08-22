@@ -1,7 +1,7 @@
 import React from 'react';
 export const eventsArray = [
   {
-    name: "fist-raised" ,
+    name: "March 4 Sudan" ,
     date: "6th Sep 2019",
     time: "",
     location: "",

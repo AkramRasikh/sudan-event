@@ -15,7 +15,7 @@ const MemberCard = ({ member }) => {
     <li>
       <img src={pic} width="100%"/>
       <h4>{name}</h4>
-      <p align="left"><i><div class="blue">{role}</div></i></p>
+      <p align="left"><i>{role}</i></p>
       <p align="left">{quote}</p>
 
       <br/>

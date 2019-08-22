@@ -21,7 +21,7 @@ export const membersArray = [
     description: " ",
     quote: '"I applied for this role to use this as an opportunity to use my Accounting background to help my homeland, as well as a chance for me lead a financial project outside of my everyday job. So anything £ related I am the woman you need - and my aim is to keep all finances clear and transparent. No kezan thieves here."',
     contact: "",
-    pic: ""
+    pic: "https://i.ibb.co/VTSS2fb/Whats-App-Image-2019-08-22-at-13-29-21.jpg"
   },
   {
     role: "Web Developer",

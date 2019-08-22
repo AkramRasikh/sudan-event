@@ -7,7 +7,6 @@ function Navbar() {
 <div>
 <ul>
   <li><NavLink to='/contact' exact><IoMdPerson/>Committee</NavLink></li>
-  <li><NavLink to='/about-us' exact><IoIosInformationCircle/>About</NavLink></li>
   <li><NavLink to='/events' exact><IoMdCalendar/>Events</NavLink></li>
   <li><NavLink to='/projects' exact><IoIosGlobe/>Now</NavLink></li>
 <div class="float">
