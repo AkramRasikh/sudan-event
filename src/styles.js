@@ -69,18 +69,23 @@ export const GlobalStyle = createGlobalStyle`
 }
 p {
   padding: 0px;
+  color: #2E0854;
 }
 h1{
   padding: 15px;
+  color: #2E0854;
 }
 h2{
   padding: 15px;
+  color: #2E0854;
 }
 h3{
   padding: 15px;
+  color: #2E0854;
 }
 h4{
   padding: 15px;
+  color: #2E0854;
 }
 
 
