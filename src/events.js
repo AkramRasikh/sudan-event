@@ -1,12 +1,12 @@
 import React from 'react';
 export const eventsArray = [
   {
-    name: "March 4 Sudan",
+    name: "fist-raised" ,
     date: "6th Sep 2019",
     time: "",
     location: "",
     description: "",
-    poster: 'https://i.ibb.co/PjcZktB/Whats-App-Image-2019-08-18-at-23-24-18.jpg',
+    poster: '<MDBIcon icon="fist-raised" />',
     images:
       [
 

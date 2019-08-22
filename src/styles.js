@@ -141,7 +141,7 @@ html {
 }
   li{
     float: right;
-    
+
   }
   AwesomeSlider{
     width: 100%;
@@ -199,7 +199,7 @@ html {
  }
 
  .flex-item {
-   background: #FFCC01;
+   background: #08C3CC;
    padding: 5px;
    width: 200px;
    height: 150px;

@@ -46,7 +46,7 @@ export const membersArray = [
     description: " ",
     quote: '"My goal Is to bridge the gap to connect and support migrants with all their needs - but mainly reintegrating them back into our society. Creating a social space for the youth community as a whole will allow the two groups to come together and finally unite."',
     contact: "",
-    pic: ""
+    pic: "https://i.ibb.co/wNpCKW5/1aa9e8d6-2ac7-4f1a-b023-6d8578869ed0.jpg"
   },
   {
     role: "Social Media Manager",
@@ -70,7 +70,7 @@ export const membersArray = [
     description: "",
     quote: '"This role holds  great personal meaning to me. For long I have watched how this community has been neglected and ignored and I feel that it is crucial that we build unity and a spaces that welcome all. One of the ways in which I want to bridge that gap is by offering sign language workshops. This is crucial for me because communication is key to any great relationship."',
     contact: "../Images/malaz.png",
-    pic: ""
+    pic: "https://i.ibb.co/7zgPV10/984b529d-0c2b-4b4f-8239-8f0dacccac70.jpg"
   },
   {
     role: "Student Bodies Liason Officer",
