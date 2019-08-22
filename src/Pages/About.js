@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 const About = props => (
   <div>
   <div class="a"><h1>Sudan UK</h1></div>
-  <img src={require('../Images/us.jpg')} width="100%"/>
+  <img src={require('../Images/sudanuklogoo.jpg')} width="100%"/>
               <p align="left">
                 SudanUK is an organisation with many ideas, but one of our common goals is to stand with Sudan and support its people.
                 <br/>
