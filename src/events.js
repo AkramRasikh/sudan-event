@@ -4,9 +4,24 @@ export const eventsArray = [
     name: "March 4 Sudan" ,
     date: "6th Sep 2019",
     time: "",
+    location: "Canalside 383 Ladbroke Grove, Kensal Green, W10 5AA",
+    description: "A night of topical taboo discussions.",
+    poster: '',
+    images:
+      [
+
+    {url: 'https://i.ibb.co/hKRLXhC/photos-coming-soon.jpg', description: ''},
+    { url: 'this is a url', description: 'this is a description' },
+    { url: 'this is a url', description: 'this is a description' }
+  ],
+},
+  {
+    name: "Shay Almaghrib" ,
+    date: "29th Aug 2019",
+    time: "6-9pm",
     location: "",
     description: "",
-    poster: '<MDBIcon icon="fist-raised" />',
+    poster: '',
     images:
       [
 
@@ -35,7 +50,7 @@ export const eventsArray = [
   date: "17th Aug 2019",
   time: "",
   location: "",
-  description: ' A Night of Sudanese Creativity and Expression ft. The Scorpios: The closing show and a creative fundraiser night, bringing together performances from Sudanese and non-Sudanese musicians, poets, artists, DJs. Funds will go to neighbourhood committees in Sudan and other arms of civil society resisting the military regime (TBD)',
+  description: 'A Night of Sudanese Creativity and Expression ft. The Scorpios: The closing show and a creative fundraiser night, bringing together performances from Sudanese and non-Sudanese musicians, poets, artists, DJs. Funds will go to neighbourhood committees in Sudan and other arms of civil society resisting the military regime (TBD)',
   poster: 'https://i.ibb.co/jDr2Hbp/madaniya.jpg',
     images:[
       {url: 'https://i.ibb.co/hKRLXhC/photos-coming-soon.jpg', description: ''},

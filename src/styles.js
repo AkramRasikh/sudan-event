@@ -74,10 +74,12 @@ p {
 h1{
   padding: 15px;
   color: #2E0854;
+  align: center;
 }
 h2{
   padding: 15px;
   color: #2E0854;
+  align: center;
 }
 h3{
   padding: 15px;

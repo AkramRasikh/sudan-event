@@ -15,10 +15,13 @@ const EventCard = ({ event }) => {
   } = event;
 
   return (
-    <li>
-    <NavLink to={{ pathname: '/gallery', state: { eventName: name, description: description, images: images, poster: poster} }} exact><p><div class="white">{name}</div></p></NavLink>
 
-    </li>
+    <NavLink to={{ pathname: '/gallery', state: { eventName: name, description: description, images: images, poster: poster} }} exact>
+    <div class="white">
+    {name} {date}</div>
+    </NavLink>
+
+
   )
 }
 

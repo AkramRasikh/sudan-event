@@ -31,14 +31,6 @@ export const membersArray = [
     contact: "",
     pic: "https://i.ibb.co/QfdxD70/61ea79d7-8d33-4735-8f94-680535665167-1.jpg"
   },
-  {
-    role: "Web Developer",
-    name: "Sarah Elderderi",
-    description: " ",
-    quote: '"I like building things that people can use, and I would like my code to have an impact in my community. I will therefore do as much as I can to help, applying my technical skills, so that we can see a stronger and more productive Sudanese diaspora and in sha Allah a new Sudan too."',
-    contact: "",
-    pic: "https://i.ibb.co/DCC6BVG/IMG-5465.jpg"
-  },
 
   {
     role: "Protest Organiser",
@@ -52,7 +44,7 @@ export const membersArray = [
     role: "Migrants Officer",
     name: "Anas Himedan",
     description: " ",
-    quote: '"My goal Is to bridge the gap to connect and support migrants with all their needs - but mainly reintegrating them back into our society. Creating a social space for the youth community as a whole will allow the two groups to come together and finally unite."',
+    quote: '"My goal is to bridge the gap to connect and support migrants with all their needs - but mainly reintegrating them back into our society. Creating a social space for the youth community as a whole will allow the two groups to come together and finally unite."',
     contact: "",
     pic: "https://i.ibb.co/wNpCKW5/1aa9e8d6-2ac7-4f1a-b023-6d8578869ed0.jpg"
   },
