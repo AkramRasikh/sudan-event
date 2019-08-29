@@ -3,8 +3,8 @@ import { NavLink } from 'react-router-dom';
 
 
 const Home = props => (
-  <div>
-<div class="a">
+  <div class="slide-down">
+<div >
 <h1 align="left">Sudan UK</h1>
 <br/>
 

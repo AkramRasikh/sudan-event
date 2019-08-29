@@ -3,9 +3,9 @@ import { NavLink } from 'react-router-dom';
 
 const About = props => (
   <div>
-  <div class="a"><h1>Sudan UK</h1></div>
+  <div class="slide-down"><h1>Sudan UK</h1></div>
   <img src={require('../Images/sudanuklogoo.jpg')} width="100%"/>
-              <p align="left">
+            <div class="slide-down">  <p align="left">
                 SudanUK is an organisation with many ideas, but one of our common goals is to stand with Sudan and support its people.
                 <br/>
                 <br/>
@@ -25,7 +25,7 @@ const About = props => (
                 <br/>
                 <p> Check out some of the <NavLink to='/projects' exact>projects</NavLink> we're working on!</p>
                 <br/>
-
+</div>
 </div>
 
 );

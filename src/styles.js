@@ -69,25 +69,25 @@ export const GlobalStyle = createGlobalStyle`
 }
 p {
   padding: 0px;
-  color: #2E0854;
+
 }
 h1{
   padding: 15px;
-  color: #2E0854;
+
   align: center;
 }
 h2{
   padding: 15px;
-  color: #2E0854;
+
   align: center;
 }
 h3{
   padding: 15px;
-  color: #2E0854;
+
 }
 h4{
   padding: 15px;
-  color: #2E0854;
+
 }
 
 
@@ -226,6 +226,31 @@ html {
 }
 a{
   color: #40e0d0;
+}
+
+div.slide-down {
+  width:100%;
+  overflow:hidden;
+}
+div.slide-down p {
+  animation: 3s slide-down;
+  margin-top:0%;
+}
+div.slide-down h1 {
+  animation: 2s slide-down;
+  margin-top:0%;
+}
+
+@keyframes slide-down {
+  from {
+    margin-top: -100%;
+    height: 300%;
+  }
+
+  to {
+    margin-top: 0%;
+    height: 100%;
+  }
 }
 
 .footer {

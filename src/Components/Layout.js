@@ -11,7 +11,7 @@ const Layout = props => (
         <br/>
             <header style={{ background: '#FFCC01'}}>
             </header>
-            <div style={{ padding: 20, background: '#08C3CC'}}>
+            <div style={{ padding: 20, background: 'white'}}>
                 {props.children}
             </div>
             <div style={{ padding: 10, background: '#FFCC01' }}>
