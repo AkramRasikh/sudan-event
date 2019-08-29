@@ -18,7 +18,7 @@ export const GlobalStyle = createGlobalStyle`
 
 .float{
   float: left;
-  background-color: #FFCC01;
+  background-color: #5397d4;
 }
 
     img{
@@ -33,13 +33,13 @@ export const GlobalStyle = createGlobalStyle`
     .wrapper {
       border: 2px solid white;
       border-radius: 5px;
-      background-color: #FFCC01;
+      background-color: whte;
   }
 
   .wrapper > div {
       border: 2px solid white;
       border-radius: 5px;
-      background-color: #005F8D;
+      background-color: white;
       padding: 1em;
       color: white;
   }
@@ -54,7 +54,7 @@ export const GlobalStyle = createGlobalStyle`
       margin: 0;
       padding: 0px;
       overflow: hidden;
-      background-color: #FFCC01;
+      background-color: #5397d4;
     }
   .fixed{
     position: fixed;
@@ -158,12 +158,7 @@ html {
     autoPlay: true;
     interval: 1000;
   }
-  div.white{
-    color: white;
-  }
-  div.blue{
-    color: #efd430;
-  }
+
   div.a {
     font-size: 21px;
   }
@@ -172,7 +167,7 @@ html {
   }
   li a {
     display: block;
-    color: #2E0854;
+    color: black;
     text-align: center;
     padding: 3px 10px;
     text-decoration: none;
@@ -191,6 +186,13 @@ html {
    box-sizing: border-box;
  }
 
+ div.a {
+   height: 1600px;
+ }
+ div.b {
+   height: auto;
+   height: 1500px;
+ }
 
  .flex-container {
    padding: 0;
@@ -208,7 +210,7 @@ html {
  }
 
  .flex-item {
-   background: #08C3CC;
+   background: white;
    padding: 5px;
    width: 200px;
    height: 150px;
@@ -220,13 +222,6 @@ html {
    font-size: 1em;
    text-align: center;
  }
-
-.blue{
-  background-color: #08C3CC;
-}
-a{
-  color: #40e0d0;
-}
 
 div.slide-down {
   width:100%;
@@ -240,7 +235,10 @@ div.slide-down h1 {
   animation: 2s slide-down;
   margin-top:0%;
 }
-
+div.slide-down img {
+  animation: 1s slide-down;
+  margin-top:0%;
+}
 @keyframes slide-down {
   from {
     margin-top: -100%;
@@ -254,11 +252,10 @@ div.slide-down h1 {
 }
 
 .footer {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #FFCC01;
+  background-color: #5397d4;
   color: white;
   text-align: center;
 }

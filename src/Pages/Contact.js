@@ -12,7 +12,7 @@ const AboutUs = props => {
     <div class="row">
       <div class="column">
       <div class="card">
-<div class="container">
+<div>
       {membersArray.map((member, index) => <li>
       <MemberCard member={member} key={index}/></li>)}
 

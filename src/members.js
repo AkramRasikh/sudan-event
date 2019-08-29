@@ -94,6 +94,6 @@ export const membersArray = [
     description: " ",
     quote: '"My passion has always been Marketing. I am keen to use the skill set, experience and expertise that I have learnt from my degree, internshops and emplpyment to benefit the Sudanese community. I will be using traditional marketing strategies - as well as fresh, new approaches."',
     contact:"../Images/malaz.png",
-    pic:""
+    pic:"https://i.ibb.co/0ZtLmxx/cde105e5-bffa-40f9-b265-d4cf58c6853f.jpg"
   },
 ]

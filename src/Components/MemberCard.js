@@ -17,8 +17,7 @@ const MemberCard = ({ member }) => {
       <h4>{name}</h4>
       <p align="left"><i>{role}</i></p>
       <p align="left">{quote}</p>
-
-      <br/>
+      <br/><br/><br/>
     </li>
 )}
 
