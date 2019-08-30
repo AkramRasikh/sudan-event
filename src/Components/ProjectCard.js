@@ -11,9 +11,8 @@ const ProjectCard = ({ project }) => {
    } = project;
 
   return (
-
     <li>
-    <p align="center"><NavLink to={{ pathname: '/gallery', state: { eventName: title, description: description, images: images } }} exact><div class="white">{title}</div></NavLink></p>
+    <p><NavLink to={{ pathname: '/gallery', state: { eventName: title, description: description, images: images } }} exact>{title}</NavLink></p>
     </li>
 )}
 

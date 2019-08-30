@@ -8,7 +8,8 @@ import { NavLink } from 'react-router-dom';
 const Layout = props => (
     <>
         <Navbar/>
-            <div style={{ padding: 20, background: '#ebf5ff'}}>
+        <img src={require('../Images/sudanuklogoo.jpg')} width="100%"/>
+            <div style={{ padding: 10, background: '#ebf5ff'}}>
                 {props.children}
             </div>
           <Footer/>

@@ -5,16 +5,16 @@ import { IoIosInformationCircle, IoIosHome, IoIosListBox , IoMdPerson, IoIosGlob
 function Navbar() {
   return (
 <div>
+<div id="nav">
 <ul>
   <li><NavLink to='/contact' exact><IoMdPerson/>Committee</NavLink></li>
   <li><NavLink to='/events' exact><IoMdCalendar/>Events</NavLink></li>
   <li><NavLink to='/projects' exact><IoIosGlobe/>Now</NavLink></li>
 <div class="float">
   <li><NavLink to='/' exact><IoIosHome/>SudanUK</NavLink></li>
-
-  </div>
-
+</div>
  </ul>
+ </div>
  </div>
   );
 }

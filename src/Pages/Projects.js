@@ -6,13 +6,13 @@ const Projects = props => (
   <div>
   <div class="a">
   <h1>SudanUK Projects</h1>
-  <ul class="flex-container" style={{background: '#ebf5ff'}}>
-<div>
+  <div id="projects">
+  <ul style={{background: '#ebf5ff'}}>
       {projectsArray.map((project, index) =>
-      <div><li class="flex-item">
-        <ProjectCard project={project} key={index}/></li></div>)}
-        </div>
+      <div class="slide-down">
+        <ProjectCard project={project} key={index}/></div>)}
   </ul>
+  </div>
   </div>
         </div>
 );

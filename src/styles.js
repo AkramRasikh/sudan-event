@@ -21,45 +21,22 @@ export const GlobalStyle = createGlobalStyle`
   background-color: #5397d4;
 }
 
-    img{
-      float: center;
-      }
-    h1{
-      text-align: center;
-      background-color: #ebf5ff;
-      color: black;
-    }
+img{
+  float: center;
+}
 
-    .wrapper {
-      border: 2px solid white;
-      border-radius: 5px;
-      background-color: whte;
-  }
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0px;
+overflow: hidden;
+background-color: #5397d4;
+color: black;
+}
 
-  .wrapper > div {
-      border: 2px solid white;
-      border-radius: 5px;
-      background-color: white;
-      padding: 1em;
-      color: white;
-  }
-  .wrapper {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-  }
-
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0px;
-      overflow: hidden;
-      background-color: #5397d4;
-    }
-  .fixed{
+.fixed{
     position: fixed;
-  }
-
+}
 
 /* Clear floats after the columns */
 .row:after {
@@ -67,31 +44,32 @@ export const GlobalStyle = createGlobalStyle`
   display: table;
   clear: both;
 }
-p {
-  padding: 0px;
 
+p{
+  color: #65636F;
 }
 h1{
-  padding: 15px;
-
-  align: center;
+  text-align: center;
+  color: white;
+  width: 100%;
+  background: #5397d4;
+  font-weight: normal;
 }
+
 h2{
   padding: 15px;
-
   align: center;
 }
+
 h3{
   padding: 15px;
-
 }
+
 h4{
   padding: 15px;
-
 }
 
-
-html {
+html{
   box-sizing: border-box;
 }
 
@@ -99,7 +77,7 @@ html {
   box-sizing: inherit;
 }
 
-.column {
+.column{
   align: center;
   width: 33.3%;
   margin-bottom: 16px;
@@ -131,95 +109,65 @@ html {
   align: center;
 }
 
-.title {
-  color: grey;
-}
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: #555;
-}
-  li{
+#nav ul li{
     float: right;
-
-  }
-  AwesomeSlider{
-    width: 100%;
-    height: 100%;
-    autoPlay: true;
-    interval: 1000;
-  }
-
-
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 3px 10px;
-    text-decoration: none;
-  }
-  li a:hover{
-
-  }
-
- li {
-     display: inline-block;
-     vertical-align: top;
-     padding: 0px;
- }
- * {
-   box-sizing: border-box;
- }
-
- div.a {
+}
+#projects ul li{
+  font-color: black;
+}
+AwesomeSlider{
+  width: 100%;
+  height: 100%;
+  autoPlay: true;
+  interval: 1000;
+}
+#nav li a{
+  display: block;
+  color: #ebf5ff;
+  text-align: center;
+  padding: 3px 10px;
+  text-decoration: none;
+}
+li a{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 3px 10px;
+  text-decoration: none;
+}
+div.a{
    height: 1500px;
    background-color: #ebf5ff;
- }
- div.b {
+}
+div.b {
    height: 1500px;
    background-color: #ebf5ff;
- }
+}
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
 
- .flex-container {
-   padding: 0;
-   margin: 0;
-   list-style: none;
-
-   display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -webkit-flex;
-   display: flex;
-
-   -webkit-flex-flow: row wrap;
-   justify-content: space-around;
- }
-
- .flex-item {
-   background: white;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+.flex-item {
+   background: #ebf5ff;
    padding: 5px;
    width: 200px;
    height: 150px;
    margin-top: 10px;
 
    line-height: 150px;
-   color: white;
    font-weight: normal;
    font-size: 1em;
    text-align: center;
- }
-
+}
 div.slide-down {
   width:100%;
   overflow:hidden;
@@ -240,28 +188,29 @@ div.slide-down ul {
   animation: 1s slide-down;
   margin-top:0%;
 }
+div.slide-down li {
+  animation: 1s slide-down;
+  margin-top:0%;
+  color: black;
+}
 @keyframes slide-down {
   from {
     margin-top: -100%;
     height: 300%;
   }
-
   to {
     margin-top: 0%;
     height: 100%;
   }
 }
-
 .footer {
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   background-color: #5397d4;
-  color: white;
   text-align: center;
 }
-
-
 }
   }
 `;

@@ -7,7 +7,7 @@ const About = props => (
   <div>
   <div class="a">
   <h1>Sudan UK</h1>
-  <div class="slide-down"><img src={require('../Images/sudanuklogoo.jpg')} width="100%"/></div>
+  <div class="slide-down"></div>
             <div class="slide-down">  <p align="center">
                 SudanUK is an organisation with many ideas, but one of our common goals is to stand with Sudan and <b>support</b> its people.
                 <br/>
@@ -33,12 +33,8 @@ const About = props => (
 <div class="b">
 <h1>Meet the committee</h1>
 <ul style={{background: '#ebf5ff'}}>
-
-
   {membersArray.map((member, index) => <li>
   <MemberCard member={member} key={index}/></li>)}
-
-
 </ul>
 </div>
 </div>

@@ -8,15 +8,18 @@ const Gallery = props => {
         <>
             <h1>{props.location.state.eventName}</h1>
             <br/>
+      <div class="a">
             <p>{props.location.state.description}</p>
             <div>
             <div>
            </div>
-
+      </div>
+<div class="b">
   <AwesomeSlider>
     {props.location.state.images.map(img=> (
     <div data-src={img.url} />))}
   </AwesomeSlider>
+</div>
             </div>
         </>
     )
