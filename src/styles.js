@@ -26,7 +26,7 @@ export const GlobalStyle = createGlobalStyle`
       }
     h1{
       text-align: center;
-      background-color: white;
+      background-color: #ebf5ff;
       color: black;
     }
 
@@ -100,7 +100,7 @@ html {
 }
 
 .column {
-  float: left;
+  align: center;
   width: 33.3%;
   margin-bottom: 16px;
   padding: 0 8px;
@@ -117,6 +117,7 @@ html {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   color: black;
   background-color: white;
+  align: center;
 }
 
 .container {
@@ -127,6 +128,7 @@ html {
   content: "";
   clear: both;
   display: table;
+  align: center;
 }
 
 .title {
@@ -159,19 +161,13 @@ html {
     interval: 1000;
   }
 
-  div.a {
-    font-size: 21px;
-  }
-  div.b {
-    font-size: 10px;
-  }
+
   li a {
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 3px 10px;
     text-decoration: none;
-    font-weight: bold;
   }
   li a:hover{
 
@@ -188,10 +184,11 @@ html {
 
  div.a {
    height: 1600px;
+   background-color: #ebf5ff;
  }
  div.b {
-   height: auto;
    height: 1500px;
+   background-color: #ebf5ff;
  }
 
  .flex-container {
@@ -236,6 +233,10 @@ div.slide-down h1 {
   margin-top:0%;
 }
 div.slide-down img {
+  animation: 1s slide-down;
+  margin-top:0%;
+}
+div.slide-down ul {
   animation: 1s slide-down;
   margin-top:0%;
 }

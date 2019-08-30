@@ -6,9 +6,10 @@ const Events = props => {
   console.log('props', props);
   return (
       <>
-        <ul class="flex-container" style={{background: '#FFCC01'}}>
-
+        <div class="a">
         <h1>Events</h1>
+        <div class="slide-down">
+        <ul class="flex-container" style={{background: '#ebf5ff'}}>
         <h3> Sudanese events happening in the UK...</h3>
 
             {eventsArray.map((event, index) =>
@@ -16,6 +17,8 @@ const Events = props => {
               <EventCard event={event} key={index} /></li>)}
 
         </ul>
+        </div>
+        </div>
         </>
   )
 }

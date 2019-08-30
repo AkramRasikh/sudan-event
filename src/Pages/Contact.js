@@ -7,20 +7,15 @@ const AboutUs = props => {
   return (
       <>
     <h1>Meet the committee</h1>
-<ul style={{background: '#FFCC01'}}>
+<ul style={{background: '#ebf5ff'}}>
 
-    <div class="row">
-      <div class="column">
-      <div class="card">
-<div>
+      <div>
       {membersArray.map((member, index) => <li>
       <MemberCard member={member} key={index}/></li>)}
 
 
 </div>
-  </div>
-  </div>
-  </div>
+
 </ul>
 </>
 )

@@ -6,9 +6,9 @@ import MemberCard from '../Components/MemberCard';
 const About = props => (
   <div>
   <div class="a">
-  <div class="slide-down"><h1>Sudan UK</h1></div>
+  <h1>Sudan UK</h1>
   <div class="slide-down"><img src={require('../Images/sudanuklogoo.jpg')} width="100%"/></div>
-            <div class="slide-down">  <p align="left">
+            <div class="slide-down">  <p align="center">
                 SudanUK is an organisation with many ideas, but one of our common goals is to stand with Sudan and <b>support</b> its people.
                 <br/>
                 <br/>
@@ -32,20 +32,13 @@ const About = props => (
 </div>
 <div>
 <h1>Meet the committee</h1>
-<ul style={{background: '#FFCC01'}}>
+<ul style={{background: '#ebf5ff'}}>
 
-<div class="row">
-  <div class="column">
-  <div class="card">
-<div class="container">
+
   {membersArray.map((member, index) => <li>
   <MemberCard member={member} key={index}/></li>)}
 
 
-</div>
-</div>
-</div>
-</div>
 </ul>
 </div>
 </div>

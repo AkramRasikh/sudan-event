@@ -9,12 +9,12 @@ const Layout = props => (
     <>
         <Navbar />
         <br/>
-            <header style={{ background: 'white'}}>
+            <header style={{ background: '#ebf5ff'}}>
             </header>
-            <div style={{ padding: 20, background: 'white'}}>
+            <div style={{ padding: 20, background: '#ebf5ff'}}>
                 {props.children}
             </div>
-            <div style={{ padding: 10, background: 'white' }}>
+            <div style={{ padding: 10, background: '#ebf5ff' }}>
           <Footer/>
             </div>
     </>
