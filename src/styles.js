@@ -135,6 +135,21 @@ li a{
   padding: 3px 10px;
   text-decoration: none;
 }
+.btn {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  width: 70px;
+}
+.btn:hover {
+  background-color: #5397d4;
+  color: white;
+}
 div.a{
    height: 1500px;
    background-color: #ebf5ff;

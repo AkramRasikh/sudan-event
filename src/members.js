@@ -33,11 +33,11 @@ export const membersArray = [
   },
 
   {
-    role: "Protest Organiser",
+    role: "Student Bodies Liason",
     name: "Abrar Fadol",
     description: " ",
     quote: '"Through this role I feel as though I can make a massive change and get the public to be aware of everything that is happening. I have always wanted to make a change in my community and now getting this opportunity to make a change to my home country makes me proud and overwhelmed."',
-    contact: "../Images/malaz.png",
+    contact: "",
     pic: "https://i.ibb.co/k15kmjx/abrar.png"
   },
   {
@@ -73,12 +73,28 @@ export const membersArray = [
     pic: "https://i.ibb.co/7zgPV10/984b529d-0c2b-4b4f-8239-8f0dacccac70.jpg"
   },
   {
-    role: "Student Bodies Liason Officer",
+    role: "Secretary",
     name: "Maha Abdelgadir",
     description: "",
     quote: '"As a long time Student Acvitist I am a firm believer in the power of activism within educational spheres. My goal is to first get rid of the stigma attached with activism and then further empower Students to create and use platforms available for them in the educational sphere to amplify their voices."',
     contact: "",
     pic: "https://i.ibb.co/zF7tcrd/maha.png"
+  },
+  {
+    role: "Healthcare Coordinator",
+    name: "Isar Alkair",
+    description: " ",
+    quote: '',
+    contact:"",
+    pic:""
+  },
+  {
+    role: "Gender & Race Equality Officer",
+    name: "Shahd Ahmed",
+    description: " ",
+    quote: '',
+    contact:"",
+    pic:""
   },
   {
     role: "Political Advisor",

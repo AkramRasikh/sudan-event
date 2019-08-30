@@ -10,6 +10,7 @@ const Gallery = props => {
             <br/>
       <div class="a">
             <p>{props.location.state.description}</p>
+            <br/>
             <div>
             <div>
            </div>
