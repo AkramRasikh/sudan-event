@@ -30,7 +30,7 @@ const About = props => (
                 <br/>
 </div>
 </div>
-<div>
+<div class="b">
 <h1>Meet the committee</h1>
 <ul style={{background: '#ebf5ff'}}>
 

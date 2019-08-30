@@ -183,7 +183,7 @@ html {
  }
 
  div.a {
-   height: 1600px;
+   height: 1500px;
    background-color: #ebf5ff;
  }
  div.b {
