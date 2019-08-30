@@ -30,13 +30,6 @@ const About = props => (
                 <br/>
 </div>
 </div>
-<div class="b">
-<h1>Meet the committee</h1>
-<ul style={{background: '#ebf5ff'}}>
-  {membersArray.map((member, index) => <li>
-  <MemberCard member={member} key={index}/></li>)}
-</ul>
-</div>
 </div>
 
 );

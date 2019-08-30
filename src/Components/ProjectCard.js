@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const ProjectCard = ({ project }) => {
    const {
+     icon,
      title,
      description,
      time,
@@ -12,7 +13,7 @@ const ProjectCard = ({ project }) => {
 
   return (
     <li>
-    <p><NavLink to={{ pathname: '/gallery', state: { eventName: title, description: description, images: images } }} exact>{title}</NavLink></p>
+    <p><NavLink to={{ pathname: '/gallery', state: { eventName: title, description: description, images: images } }} exact>{icon} {title}</NavLink></p>
     </li>
 )}
 

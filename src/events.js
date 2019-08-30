@@ -16,21 +16,6 @@ export const eventsArray = [
   ],
 },
   {
-    name: "Shay Almaghrib" ,
-    date: "29th Aug 2019",
-    time: "6-9pm",
-    location: "",
-    description: "",
-    poster: '',
-    images:
-      [
-
-    {url: 'https://i.ibb.co/hKRLXhC/photos-coming-soon.jpg', description: ''},
-    { url: 'this is a url', description: 'this is a description' },
-    { url: 'this is a url', description: 'this is a description' }
-  ],
-},
-  {
     name: "The Sit -In",
     date: "to be confirmed",
     time: "",
