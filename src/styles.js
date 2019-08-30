@@ -53,7 +53,7 @@ h1{
   color: white;
   width: 100%;
   background: #5397d4;
-  font-weight: normal;
+  font-weight: lighter;
 }
 
 h2{

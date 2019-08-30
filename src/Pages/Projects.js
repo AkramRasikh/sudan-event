@@ -1,11 +1,12 @@
 import React from 'react';
 import ProjectCard from '../Components/ProjectCard';
 import { projectsArray } from '../projects';
+import {IoIosGlobe} from "react-icons/io";
 
 const Projects = props => (
   <div>
   <div class="a">
-  <h1>SudanUK Projects</h1>
+  <h1><IoIosGlobe/>SudanUK Projects</h1>
   <div id="projects">
   <ul style={{background: '#ebf5ff'}}>
       {projectsArray.map((project, index) =>
