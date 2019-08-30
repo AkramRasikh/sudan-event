@@ -136,19 +136,20 @@ li a{
   text-decoration: none;
 }
 .btn {
-  background-color: #ddd;
+  background-color: #ebf5ff;
   border: none;
   color: black;
   padding: 16px 32px;
   text-align: center;
   font-size: 16px;
   margin: 4px 2px;
+  opacity: 0.6;
   transition: 0.3s;
-  width: 70px;
+  width: 100px;
 }
 .btn:hover {
+  opacity: 1;
   background-color: #5397d4;
-  color: white;
 }
 div.a{
    height: 1500px;
@@ -207,6 +208,10 @@ div.slide-down li {
   animation: 1s slide-down;
   margin-top:0%;
   color: black;
+}
+div.slide-down button {
+  animation: 1s slide-down;
+  margin-top:0%;
 }
 @keyframes slide-down {
   from {

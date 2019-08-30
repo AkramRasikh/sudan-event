@@ -18,7 +18,7 @@ const EventCard = ({ event }) => {
 
     <NavLink to={{ pathname: '/gallery', state: { eventName: name, description: description, images: images, poster: poster} }} exact>
     <div class="white">
-    {name}, {date}</div>
+    {name}</div>
     </NavLink>
 
 

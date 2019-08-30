@@ -12,8 +12,8 @@ const Projects = props => (
   <br/>
   <ul style={{background: '#ebf5ff'}}>
       {projectsArray.map((project, index) =>
-      <div class="slide-down"><button class="btn">
-        <ProjectCard project={project} key={index}/></button></div>)}
+      <button class="btn"><div class="slide-down">
+        <ProjectCard project={project} key={index}/></div></button>)}
   </ul>
   </div>
   </div>

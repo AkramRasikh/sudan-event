@@ -27,8 +27,6 @@ export const projectsArray = [
       {url: 'https://i.ibb.co/dfjm3D0/Screen-Shot-2019-08-19-at-08-13-30.png', description: "k"},
       {url: 'https://i.ibb.co/6ZVPxrX/Screen-Shot-2019-08-19-at-08-13-03.png', description: "k"},
       {url: 'https://i.ibb.co/w0HBx6M/Screen-Shot-2019-08-19-at-08-14-55.png', description: "k"},
-
-
     ]
   },
   {

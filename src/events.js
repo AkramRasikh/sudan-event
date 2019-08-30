@@ -2,14 +2,13 @@ import React from 'react';
 export const eventsArray = [
   {
     name: "March 4 Sudan" ,
-    date: "6th Sep 2019",
+    date: "06/09",
     time: "",
     location: "Canalside 383 Ladbroke Grove, Kensal Green, W10 5AA",
-    description: "A night of topical taboo discussions.",
+    description: "",
     poster: '',
     images:
       [
-
     {url: 'https://i.ibb.co/hKRLXhC/photos-coming-soon.jpg', description: ''},
     { url: 'this is a url', description: 'this is a description' },
     { url: 'this is a url', description: 'this is a description' }
@@ -17,7 +16,7 @@ export const eventsArray = [
 },
   {
     name: "The Sit -In",
-    date: "to be confirmed",
+    date: "tbc",
     time: "",
     location: "",
     description: "A replica of the sit-in that took place outside the Military Headquarters, Khartoum. This event will allow for a real chance to experience to an extent what it was like to be at the hub of creativity and unity. Great food, music, activities and plenty more suprises. An event not to be missed!",
