@@ -125,7 +125,7 @@ AwesomeSlider{
   display: block;
   color: #ebf5ff;
   text-align: center;
-  padding: 3px 10px;
+  padding: 10px 10px;
   text-decoration: none;
 }
 li a{

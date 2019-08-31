@@ -2,7 +2,7 @@ import React from 'react';
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 
-const Gallery = props => {
+const EventGallery = props => {
     console.log('props', props);
     return (
         <>
@@ -26,4 +26,4 @@ const Gallery = props => {
     )
 }
 
-export default Gallery;
+export default EventGallery;

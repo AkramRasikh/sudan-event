@@ -13,7 +13,7 @@ const MemberCard = ({ member }) => {
 
   return (
     <li>
-      <img src={pic} width="100%"/>
+      <img src={pic} width="400px"/>
       <h4>{name}</h4>
       <p align="left"><i>{role}</i></p>
       <p align="left">{quote}</p>

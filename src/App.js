@@ -7,7 +7,8 @@ import Layout from './Components/Layout';
 import Home from './Pages/Home';
 import Events from './Pages/Events';
 import About from './Pages/About';
-import Gallery from './Pages/Gallery';
+import EventGallery from './Pages/EventGallery';
+import ProjectGallery from './Pages/ProjectGallery';
 import Contact from './Pages/Contact';
 import Projects from './Pages/Projects';
 
@@ -21,7 +22,8 @@ const App = () => (
 			<Route path="/about-us" exact component={About} />
 			<Route path="/contact" exact component={Contact} />
 			<Route path="/projects" exact component={Projects} />
-			<Route path="/gallery" exact component={Gallery} />
+			<Route path="/eventGallery" exact component={EventGallery} />
+			<Route path="/projectGallery" exact component={ProjectGallery} />
 		</Layout>
 	</>
 );
