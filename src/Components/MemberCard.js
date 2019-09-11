@@ -12,7 +12,7 @@ const MemberCard = ({ member }) => {
    } = member;
 
   return (
-    <li>
+    <li align="center">
       <img src={pic} width="400px"/>
       <h3>{name}</h3>
       <p><i>{role}</i><br/><br/>{quote}</p>
