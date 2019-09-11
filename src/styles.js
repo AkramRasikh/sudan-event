@@ -41,7 +41,7 @@ background-color: black;
 
 p{
   color: white;
-  padding: 25px;
+  padding: 10px;
 }
 h1{
   text-align: center;
@@ -58,12 +58,10 @@ h2{
 }
 
 h3{
-  padding: 15px;
   color: white;
 }
 
 h4{
-  padding: 15px;
   color: white;
 }
 
