@@ -16,10 +16,8 @@ const EventGallery = props => {
            </div>
       </div>
 <div class="b">
-  <AwesomeSlider>
     {props.location.state.images.map(img=> (
-    <div data-src={img.url} />))}
-  </AwesomeSlider>
+      <img src={img.url} />))}
 </div>
             </div>
         </>

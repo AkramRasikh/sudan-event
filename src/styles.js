@@ -18,7 +18,7 @@ export const GlobalStyle = createGlobalStyle`
 
 .float{
   float: left;
-  background-color: #5397d4;
+  background-color: black;
 }
 
 img{
@@ -30,14 +30,8 @@ list-style-type: none;
 margin: 0;
 padding: 0px;
 overflow: hidden;
-background-color: #5397d4;
-color: black;
+background-color: black;
 }
-
-.fixed{
-    position: fixed;
-}
-
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -46,27 +40,31 @@ color: black;
 }
 
 p{
-  color: #65636F;
+  color: white;
+  padding: 25px;
 }
 h1{
   text-align: center;
   color: white;
   width: 100%;
-  background: #5397d4;
+  background: black;
   font-weight: lighter;
 }
 
 h2{
   padding: 15px;
   align: center;
+  color: white;
 }
 
 h3{
   padding: 15px;
+  color: white;
 }
 
 h4{
   padding: 15px;
+  color: white;
 }
 
 html{
@@ -93,7 +91,7 @@ html{
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  color: black;
+  color: white;
   background-color: white;
   align: center;
 }
@@ -113,7 +111,7 @@ html{
     float: right;
 }
 #projects ul li{
-  font-color: black;
+  font-color: white;
 }
 AwesomeSlider{
   width: 100%;
@@ -123,41 +121,40 @@ AwesomeSlider{
 }
 #nav li a{
   display: block;
-  color: #ebf5ff;
+  color: white;
   text-align: center;
   padding: 10px 10px;
   text-decoration: none;
 }
 li a{
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 3px 10px;
   text-decoration: none;
 }
 .btn {
-  background-color: #ebf5ff;
+  background-color: black;
   border: none;
-  color: black;
   padding: 16px 32px;
+  color: white;
   text-align: center;
   font-size: 16px;
-  margin: 4px 2px;
-  opacity: 0.6;
-  transition: 0.3s;
+  margin: 6px 2px;
   width: 100px;
 }
+
 .btn:hover {
   opacity: 1;
-  background-color: #5397d4;
+  background-color: grey;
 }
 div.a{
    height: 1500px;
-   background-color: #ebf5ff;
+   background-color: black;
 }
 div.b {
    height: 1500px;
-   background-color: #ebf5ff;
+   background-color: black;
 }
 .flex-container {
   padding: 0;
@@ -173,7 +170,7 @@ div.b {
   justify-content: space-around;
 }
 .flex-item {
-   background: #ebf5ff;
+   background: black;
    padding: 5px;
    width: 200px;
    height: 150px;
@@ -224,12 +221,11 @@ div.slide-down button {
   }
 }
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
   width: 100%;
-  background-color: #5397d4;
+  background-color: black;
   text-align: center;
+  position: fixed;
+  bottom: 0;
 }
 }
   }

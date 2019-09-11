@@ -7,8 +7,7 @@ const About = props => (
   <div>
   <div class="a">
   <h1>Sudan UK</h1>
-  <div class="slide-down"></div>
-            <div class="slide-down">  <p align="center">
+            <div>  <p>
                 SudanUK is an organisation with many ideas, but one of our common goals is to stand with Sudan and <b>support</b> its people.
                 <br/>
                 <br/>

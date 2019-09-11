@@ -16,10 +16,8 @@ const ProjectGallery = props => {
            </div>
       </div>
 <div class="b">
-  <AwesomeSlider>
-    {props.location.state.images.map(img=> (
-    <div data-src={img.url} />))}
-  </AwesomeSlider>
+{props.location.state.images.map(img=> (
+  <img src={img.url} />))}
 </div>
             </div>
         </>

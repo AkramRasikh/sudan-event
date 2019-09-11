@@ -8,9 +8,9 @@ const AboutUs = props => {
   return (
       <>
 <div class="a">
-<div class="slide-down">
+<div>
     <h1><IoIosPeople/>Youth Committee</h1>
-      <ul style={{background: '#ebf5ff'}}>
+      <ul>
         <div>
           {membersArray.map((member, index) =>
            <li>

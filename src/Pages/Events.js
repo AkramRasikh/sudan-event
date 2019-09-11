@@ -10,13 +10,12 @@ const Events = props => {
         <div class="a">
         <h1><IoMdCalendar/>Events</h1>
 
-        <ul class="flex-container" style={{background: '#ebf5ff'}}>
+        <ul class="flex-container">
             {eventsArray.map((event, index) =>
-              <button class="btn"><div class="slide-down">
+              <button class="btn"><div>
               <li>
               <EventCard event={event} key={index} /></li></div></button>)}
         </ul>
-
         </div>
         </>
   )

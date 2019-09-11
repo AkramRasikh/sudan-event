@@ -9,7 +9,7 @@ const Layout = props => (
     <>
         <Navbar/>
         <img src={require('../Images/sudanuklogoo.jpg')} width="100%"/>
-            <div style={{ padding: 10, background: '#ebf5ff'}}>
+            <div style={{background: 'black'}}>
                 {props.children}
             </div>
           <Footer/>
