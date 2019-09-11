@@ -8,7 +8,6 @@ import { NavLink } from 'react-router-dom';
 const Layout = props => (
     <>
         <Navbar/>
-        <img src={require('../Images/sudanuklogoo.jpg')} width="100%"/>
             <div style={{background: 'black'}}>
                 {props.children}
             </div>
