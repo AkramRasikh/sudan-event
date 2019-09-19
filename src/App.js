@@ -15,16 +15,7 @@ import Projects from './Pages/Projects';
 
 const App = () => (
 	<>
-		<GlobalStyle />
-		<Layout>
-			<Route path="/" exact component={About} />
-			<Route path="/events" exact component={Events} />
-			<Route path="/about-us" exact component={About} />
-			<Route path="/contact" exact component={Contact} />
-			<Route path="/projects" exact component={Projects} />
-			<Route path="/eventGallery" exact component={EventGallery} />
-			<Route path="/projectGallery" exact component={ProjectGallery} />
-		</Layout>
+		
 	</>
 );
 
