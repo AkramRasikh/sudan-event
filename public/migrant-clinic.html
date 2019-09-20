@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<title>SudanUK</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
+.mySlides {display: none}
+
+</style>
+<body class="w3-content w3-border-left w3-border-right">
+
+
+
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-white" style="margin-left:260px">
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:80px"></div>
+
+  <!-- Slideshow Header -->
+  <div class="w3-container" id="apartment">
+    <h2 class="w3-text-blue">Migrant Clinic</h2>
+    <div class="w3-display-container mySlides">
+    <img src="https://i.ibb.co/L6bK0MR/Screen-Shot-2019-08-19-at-08-14-11.png" style="width:100%;margin-bottom:-6px">
+      <div class="w3-display-bottomleft w3-container w3-black">
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+    <img src="https://i.ibb.co/dfjm3D0/Screen-Shot-2019-08-19-at-08-13-30.png" style="width:100%;margin-bottom:-6px">
+      <div class="w3-display-bottomleft w3-container w3-black">
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+    <img src="https://i.ibb.co/XXbC195/Screen-Shot-2019-08-19-at-08-13-45.png" style="width:100%;margin-bottom:-6px">
+      <div class="w3-display-bottomleft w3-container w3-black">
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+    <img src="https://i.ibb.co/fM8YrHK/Screen-Shot-2019-08-19-at-08-13-56.png" style="width:100%;margin-bottom:-6px">
+      <div class="w3-display-bottomleft w3-container w3-black">
+      </div>
+    </div>
+  </div>
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col s3">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="https://i.ibb.co/L6bK0MR/Screen-Shot-2019-08-19-at-08-14-11.png" style="width:100%;cursor:pointer" onclick="currentDiv(1)">
+    </div>
+    <div class="w3-col s3">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="https://i.ibb.co/dfjm3D0/Screen-Shot-2019-08-19-at-08-13-30.png" style="width:100%;cursor:pointer" onclick="currentDiv(2)">
+    </div>
+    <div class="w3-col s3">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="https://i.ibb.co/XXbC195/Screen-Shot-2019-08-19-at-08-13-45.png" style="width:100%;cursor:pointer" onclick="currentDiv(3)">
+    </div>
+    <div class="w3-col s3">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="https://i.ibb.co/fM8YrHK/Screen-Shot-2019-08-19-at-08-13-56.png" style="width:100%;cursor:pointer" onclick="currentDiv(4)">
+    </div>
+
+  </div>
+
+  <div class="w3-container">
+    <h4><strong>Migrant Clinic</strong></h4>
+    <hr>
+    <p>The first ever Youth Led Migrant support clinic will be launching soon. This idea was born out of discussions amongst the Youth who felt that Migration was an issue to be dealt with immediately. Upon discussing with some Migrants a collective agreement was agreed to launch a Migrant Support Clinic that would happen fortnightly. The clinic would help with social and educational support, as well as reading and translating documents, helping with CVs and just generally creating a fun and safe environment for Migrants to come and connect with the wider community. The organisers of the Migrant Support clinic are still looking for volunteers so if you are interested in helping please email us at sudanuk_@gmail.com.</p>
+  </div>
+  <hr>
+
+  <!-- Contact -->
+  <div class="w3-container" id="contact">
+    <h2>Get Involved</h2>
+    <i class="fa fa-map-marker" style="width:30px"></i> London, UK<br>
+    <i class="fa fa-envelope" style="width:30px"> </i> Email: sudanuk_@gmail.com<br>
+    <p>Questions? Go ahead, ask them:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+    <button type="submit" class="w3-button w3-blue w3-third">Send a Message</button>
+    </form>
+  </div>
+
+  <footer class="w3-container w3-padding-16" style="margin-top:32px">
+    <a href="https://www.facebook.com/Sudanuk_-112774156737439/" class="fa fa-facebook"> </a>
+    <a href="https://twitter.com/sudanuk1" class="fa fa-twitter"></a>
+    <a href="https://instagram.com/sudanuk_" class="fa fa-instagram"></a>
+ </footer>
+
+<!-- End page content -->
+</div>
+
+
+
+<script>
+// Script to open and close sidebar when on tablets and phones
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Slideshow Apartment Images
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-opacity-off";
+}
+</script>
+
+</body>
+</html>
